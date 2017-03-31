@@ -1,0 +1,198 @@
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	70 ms
+	rx bytes:	4559
+	rx packets:	46
+	tx bytes:	8079
+	tx packets:	29
+	tx retries:	0
+	tx failed:	0
+	signal:  	-46 [-46] dBm
+	signal avg:	-41 [-41] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	30 ms
+	rx bytes:	62204
+	rx packets:	556
+	tx bytes:	205189
+	tx packets:	369
+	tx retries:	0
+	tx failed:	0
+	signal:  	-58 [-58] dBm
+	signal avg:	-54 [-54] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	65.0 MBit/s MCS 7
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	70 ms
+	rx bytes:	93327
+	rx packets:	890
+	tx bytes:	566400
+	tx packets:	692
+	tx retries:	0
+	tx failed:	0
+	signal:  	-61 [-61] dBm
+	signal avg:	-59 [-59] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	65.0 MBit/s MCS 7
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	0 ms
+	rx bytes:	158196
+	rx packets:	1483
+	tx bytes:	946740
+	tx packets:	1035
+	tx retries:	0
+	tx failed:	0
+	signal:  	-61 [-61] dBm
+	signal avg:	-60 [-60] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	65.0 MBit/s MCS 7
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	170 ms
+	rx bytes:	199060
+	rx packets:	1956
+	tx bytes:	1222320
+	tx packets:	1280
+	tx retries:	0
+	tx failed:	0
+	signal:  	-38 [-38] dBm
+	signal avg:	-38 [-38] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	280 ms
+	rx bytes:	202488
+	rx packets:	2004
+	tx bytes:	1224106
+	tx packets:	1302
+	tx retries:	0
+	tx failed:	0
+	signal:  	-42 [-42] dBm
+	signal avg:	-43 [-43] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	320 ms
+	rx bytes:	202950
+	rx packets:	2011
+	tx bytes:	1224519
+	tx packets:	1306
+	tx retries:	0
+	tx failed:	0
+	signal:  	-44 [-44] dBm
+	signal avg:	-43 [-43] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	65.0 MBit/s MCS 7
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	290 ms
+	rx bytes:	229567
+	rx packets:	2316
+	tx bytes:	1453906
+	tx packets:	1492
+	tx retries:	0
+	tx failed:	0
+	signal:  	-50 [-50] dBm
+	signal avg:	-64 [-64] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	140 ms
+	rx bytes:	276804
+	rx packets:	2810
+	tx bytes:	1871221
+	tx packets:	1857
+	tx retries:	0
+	tx failed:	0
+	signal:  	-44 [-44] dBm
+	signal avg:	-55 [-55] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	1130 ms
+	rx bytes:	282284
+	rx packets:	2855
+	tx bytes:	1886812
+	tx packets:	1891
+	tx retries:	0
+	tx failed:	0
+	signal:  	-42 [-42] dBm
+	signal avg:	-57 [-57] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	80 ms
+	rx bytes:	305546
+	rx packets:	3122
+	tx bytes:	2201410
+	tx packets:	2142
+	tx retries:	0
+	tx failed:	0
+	signal:  	-43 [-43] dBm
+	signal avg:	-45 [-45] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	65.0 MBit/s MCS 7
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no

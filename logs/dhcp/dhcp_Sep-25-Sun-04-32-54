@@ -1,0 +1,18 @@
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	100 ms
+	rx bytes:	4824
+	rx packets:	51
+	tx bytes:	4605
+	tx packets:	31
+	tx retries:	0
+	tx failed:	0
+	signal:  	-69 [-69] dBm
+	signal avg:	-58 [-61] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no

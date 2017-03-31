@@ -1,0 +1,10 @@
+#!/bin/bash
+
+#./mitmf.py -i wlan0 --arp --spoof --dns --hsts --gateway 192.168.0.100
+
+tput bold;
+LOGFILE="tcpdump_`date +"%b-%d-%a-%I-%M-%S"`"
+echo -e "`tput setaf 2`[+][+][+] TcpDump Started..."
+echo -e "[+][+][+] Logging files to /home/pi/Desktop/pibomb/logs"
+echo -e "`tput setaf 1`[-][-][-] Type Ctrl+C to Stop`tput setaf 7`"
+tcpdump -i wlan0 | tee -a logs/tcpdump/$LOGFILE

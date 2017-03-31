@@ -1,0 +1,10 @@
+#!/bin/bash
+
+tput bold;
+#echo -e "`tput setaf 2`;[+][+][+] Clients connected`tput setaf 7;`"
+LOGFILE="dhcp_`date +"%b-%d-%a-%I-%M-%S"`"
+while true; do echo -e "`tput setaf 2`;[+][+][+] Clients connected\n`tput setaf 7;`"
+	iw dev wlan0 station dump | tee -a logs/dhcp/$LOGFILE
+	sleep 10
+	clear
+done

@@ -1,0 +1,72 @@
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	80 ms
+	rx bytes:	3969
+	rx packets:	38
+	tx bytes:	3328
+	tx packets:	25
+	tx retries:	0
+	tx failed:	0
+	signal:  	-44 [-44] dBm
+	signal avg:	-50 [-50] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	10 ms
+	rx bytes:	12444
+	rx packets:	144
+	tx bytes:	15893
+	tx packets:	70
+	tx retries:	0
+	tx failed:	0
+	signal:  	-49 [-49] dBm
+	signal avg:	-48 [-48] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	12.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	380 ms
+	rx bytes:	98095
+	rx packets:	945
+	tx bytes:	689794
+	tx packets:	724
+	tx retries:	0
+	tx failed:	0
+	signal:  	-49 [-49] dBm
+	signal avg:	-52 [-52] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	6.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no
+Station c0:ee:fb:3b:35:93 (on wlan0)
+	inactive time:	340 ms
+	rx bytes:	106795
+	rx packets:	1040
+	tx bytes:	701747
+	tx packets:	771
+	tx retries:	0
+	tx failed:	0
+	signal:  	-55 [-55] dBm
+	signal avg:	-53 [-53] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	65.0 MBit/s MCS 7
+	authorized:	yes
+	authenticated:	yes
+	preamble:	long
+	WMM/WME:	no
+	MFP:		no
+	TDLS peer:	no

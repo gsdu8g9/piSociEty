@@ -1,0 +1,44 @@
+#!/bin/bash
+
+tput bold;
+echo -e "\n`tput setaf 2;`[!][!][!] Clean Slate Protocol Started [!][!][!]`tput setaf 7;`\n"
+
+#Resetting Mac ID
+
+echo -e "\n`tput setaf 3;`[+][+][+] Resetting MAC ID...`tput setaf 7;`\n"
+ifconfig wlan0 down
+ifconfig wlan1 down 2> /dev/null
+macchanger -p wlan0
+macchanger -p wlan1 2> /dev/null
+ifconfig wlan0 up
+ifconfig wlan1 up 2> /dev/null
+
+echo -e "\n`tput setaf 3;`[+][+][+] Flushing IpTables...`tput setaf 7;`\n"
+iptables -F
+iptables -t nat -F
+
+echo -e "\n`tput setaf 3;`[+][+][+] Flushing Ip Addresses...`tput setaf 7;`\n"
+ip addr flush wlan0
+ip addr flush wlan1 2> /dev/null
+
+#Stop dnsmasq
+echo -e "\n`tput setaf 3;`[+][+][+] Stopping Dnsmasq...`tput setaf 7;`\n"
+service dnsmasq stop
+service dnsmasq status
+
+#Stop hostapd
+echo -e "\n`tput setaf 3;`[+][+][+] Stopping Hostapd...`tput setaf 7;`\n"
+service hostapd stop
+service hostapd status
+
+#Clean MitmF logs
+echo -e "\n`tput setaf 3;`[+][+][+] Cleaning up MitmF logs...`tput setaf 7;`\n"
+echo '' > modules/mitmf/logs/mitmf.log
+
+#Clean tcpDump
+echo -e "\n`tput setaf 3;`[+][+][+] Cleaning up tcpdump logs...`tput setaf 7;`\n"
+rm ../logs/tcpdump/tcpdump* 2> /dev/null
+
+#Clean dhcp client logs
+echo -e "\n`tput setaf 3;`[+][+][+] Cleaning up dhcp logs...`tput setaf 7;`\n"
+rm ../logs/dhcp/dhcp* 2> /dev/null

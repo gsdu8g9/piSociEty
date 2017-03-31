@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo -e "<------------Updating Mitmf------------->"
+cd mitmf
+git pull
+
+echo -e "<------------Updating mdk3------------->"
+cd ../mdk3
+git pull

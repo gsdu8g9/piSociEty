@@ -1,0 +1,41 @@
+15:49:35.496246 c0:ee:fb:3b:35:93 (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 6: 01 00
+15:49:35.677215 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+15:49:35.677284 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+15:49:35.699964 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+15:49:35.700092 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+15:49:35.701028 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+15:49:35.708807 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+15:49:35.708909 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+15:49:35.718262 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+15:49:35.848568 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+15:49:35.848673 ARP, Reply 10.0.0.1 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+15:49:35.848754 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+15:49:35.851522 IP 10.0.0.222.9766 > 10.0.0.1.domain: 18625+ AAAA? connectivitycheck.gstatic.com. (47)
+15:49:35.851777 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+15:49:35.854025 IP 10.0.0.222.19785 > 10.0.0.1.domain: 18625+ AAAA? connectivitycheck.gstatic.com. (47)
+15:49:35.854171 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+15:49:35.856519 IP 10.0.0.222.15581 > 10.0.0.1.domain: 4131+ A? connectivitycheck.gstatic.com. (47)
+15:49:35.856656 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+15:49:35.858765 IP 10.0.0.222.29837 > 10.0.0.1.domain: 4131+ A? connectivitycheck.gstatic.com. (47)
+15:49:35.858904 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+15:49:35.862561 IP 10.0.0.222.13326 > 10.0.0.1.domain: 10489+ AAAA? connectivitycheck.gstatic.com. (47)
+15:49:35.862745 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+15:49:35.864751 IP 10.0.0.222.26197 > 10.0.0.1.domain: 10489+ AAAA? connectivitycheck.gstatic.com. (47)
+15:49:35.864931 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+15:49:35.867013 IP 10.0.0.222.8334 > 10.0.0.1.domain: 27851+ A? connectivitycheck.gstatic.com. (47)
+15:49:36.677762 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+15:49:36.677852 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+15:49:37.059347 ARP, Reply 192.168.0.100 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+15:49:38.981463 IP 10.0.0.222.32925 > 10.0.0.1.domain: 25124+ AAAA? 127.0.0.0. (27)
+15:49:38.983015 IP 10.0.0.222.26738 > 10.0.0.1.domain: 10570+ A? analytics.query.yahoo.com. (43)
+15:49:39.003178 IP 10.0.0.1.domain > 10.0.0.222.32925: 25124 NXDomain 0/1/0 (102)
+15:49:39.004893 IP 10.0.0.1.domain > 10.0.0.222.26738: 10570 2/0/0 CNAME geo-cache-ds.internal.query.g03.yahoodns.net., A 106.10.137.175 (117)
+15:49:40.433249 ARP, Reply 192.168.0.100 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+15:49:40.827926 IP 10.0.0.222.33483 > 10.0.0.1.domain: 21729+ AAAA? 224.0.0.0. (27)
+15:49:40.852685 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+15:49:40.854233 ARP, Reply 10.0.0.222 is-at c0:ee:fb:3b:35:93 (oui Unknown), length 28
+15:49:40.868465 IP 10.0.0.222.8334 > 10.0.0.1.domain: 27851+ A? connectivitycheck.gstatic.com. (47)
+15:49:40.905959 IP 10.0.0.1.domain > 10.0.0.222.33483: 21729 NXDomain 0/1/0 (102)
+15:49:40.943671 IP 10.0.0.1.domain > 10.0.0.222.8334: 27851 1/0/0 A 216.58.220.174 (63)
+15:49:40.952230 IP 10.0.0.222.54165 > bom07s10-in-f174.1e100.net.http: Flags [S], seq 2461447809, win 65535, options [mss 1460,sackOK,TS val 635253 ecr 0,nop,wscale 8], length 0
+15:49:40.952469 IP bom07s10-in-f174.1e100.net.http > 10.

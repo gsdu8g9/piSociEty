@@ -1,0 +1,531 @@
+06:12:19.618766 c0:ee:fb:3b:35:93 (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 6: 01 00
+06:12:19.752532 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+06:12:19.752644 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+06:12:19.874997 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+06:12:19.875173 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+06:12:19.876325 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+06:12:19.883702 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+06:12:19.883819 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+06:12:19.905653 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+06:12:21.200014 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:12:21.200131 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:12:21.308475 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:23.422099 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+06:12:23.422206 ARP, Reply 10.0.0.1 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:23.422265 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+06:12:23.424896 IP 10.0.0.222.46919 > 10.0.0.1.domain: 48951+ AAAA? 127.0.0.1. (27)
+06:12:23.501079 IP 10.0.0.1.domain > 10.0.0.222.46919: 48951 NXDomain 0/1/0 (102)
+06:12:23.964242 IP 10.0.0.222.44450 > 10.0.0.1.domain: 49065+ AAAA? 127.0.0.0. (27)
+06:12:24.030689 IP 10.0.0.1.domain > 10.0.0.222.44450: 49065 NXDomain 0/1/0 (102)
+06:12:24.319981 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:26.363809 IP 10.0.0.222.57412 > 10.0.0.1.domain: 62290+ AAAA? 224.0.0.0. (27)
+06:12:26.420733 IP 10.0.0.1.domain > 10.0.0.222.57412: 62290 NXDomain 0/1/0 (102)
+06:12:26.558460 IP 10.0.0.222.1268 > 10.0.0.1.domain: 59677+ AAAA? 169.254.0.0. (29)
+06:12:26.631540 IP 10.0.0.1.domain > 10.0.0.222.1268: 59677 NXDomain 0/1/0 (104)
+06:12:27.042738 IP 10.0.0.222.34025 > 10.0.0.1.domain: 46533+ A? connectivitycheck.gstatic.com. (47)
+06:12:27.111166 IP 10.0.0.1.domain > 10.0.0.222.34025: 46533 1/0/0 A 216.58.199.174 (63)
+06:12:27.116369 IP 10.0.0.222.51811 > bom05s08-in-f14.1e100.net.http: Flags [S], seq 836136125, win 64240, options [mss 1460,sackOK,TS val 2752066 ecr 0,nop,wscale 8], length 0
+06:12:27.116603 IP bom05s08-in-f14.1e100.net.http > 10.0.0.222.51811: Flags [S.], seq 2717958353, ack 836136126, win 28960, options [mss 1460,sackOK,TS val 422149 ecr 2752066,nop,wscale 7], length 0
+06:12:27.118159 IP 10.0.0.222.51811 > bom05s08-in-f14.1e100.net.http: Flags [.], ack 1, win 251, options [nop,nop,TS val 2752066 ecr 422149], length 0
+06:12:27.119893 IP 10.0.0.222.51811 > bom05s08-in-f14.1e100.net.http: Flags [P.], seq 1:187, ack 1, win 251, options [nop,nop,TS val 2752066 ecr 422149], length 186
+06:12:27.120070 IP bom05s08-in-f14.1e100.net.http > 10.0.0.222.51811: Flags [.], ack 187, win 235, options [nop,nop,TS val 422150 ecr 2752066], length 0
+06:12:27.269196 IP 10.0.0.222.57630 > 10.0.0.1.domain: 47160+ A? switchboard.services.mozilla.com. (50)
+06:12:27.334283 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:27.352571 IP 10.0.0.1.domain > 10.0.0.222.57630: 47160 2/0/0 CNAME switchboard.r53-2.services.mozilla.com., A 35.161.194.122 (98)
+06:12:27.383902 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [S], seq 2694071210, win 64240, options [mss 1460,sackOK,TS val 2752093 ecr 0,nop,wscale 8], length 0
+06:12:27.395929 IP 10.0.0.222.41311 > 10.0.0.1.domain: 41693+ AAAA? 172.16.0.0. (28)
+06:12:27.434481 IP 10.0.0.222.43741 > 10.0.0.1.domain: 55379+ A? kali. (22)
+06:12:27.509926 IP 10.0.0.1.domain > 10.0.0.222.41311: 41693 NXDomain 0/1/0 (103)
+06:12:27.521656 IP bom05s08-in-f14.1e100.net.http > 10.0.0.222.51811: Flags [P.], seq 1:163, ack 187, win 235, options [nop,nop,TS val 422190 ecr 2752066], length 162
+06:12:27.523809 IP 10.0.0.222.51811 > bom05s08-in-f14.1e100.net.http: Flags [.], ack 163, win 256, options [nop,nop,TS val 2752107 ecr 422190], length 0
+06:12:27.528441 IP 10.0.0.1.domain > 10.0.0.222.43741: 55379 NXDomain 0/1/0 (97)
+06:12:27.586571 IP 10.0.0.222.65383 > 10.0.0.1.domain: 46380+ AAAA? 10.0.0.0. (26)
+06:12:27.647417 IP 10.0.0.1.domain > 10.0.0.222.65383: 46380 NXDomain 0/1/0 (101)
+06:12:27.649465 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [S.], seq 1191259509, ack 2694071211, win 17898, options [mss 1440,sackOK,TS val 355843421 ecr 2752093,nop,wscale 8], length 0
+06:12:27.651056 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2752119 ecr 355843421], length 0
+06:12:27.655051 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1:199, ack 1, win 251, options [nop,nop,TS val 2752120 ecr 355843421], length 198
+06:12:27.920544 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [.], ack 199, win 75, options [nop,nop,TS val 355843488 ecr 2752120], length 0
+06:12:27.922662 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [.], seq 1:1349, ack 199, win 75, options [nop,nop,TS val 355843489 ecr 2752120], length 1348
+06:12:27.922825 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [.], seq 1349:2697, ack 199, win 75, options [nop,nop,TS val 355843489 ecr 2752120], length 1348
+06:12:27.922898 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [P.], seq 2697:2961, ack 199, win 75, options [nop,nop,TS val 355843489 ecr 2752120], length 264
+06:12:27.925425 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2752147 ecr 355843489], length 0
+06:12:27.926290 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2752147 ecr 355843489], length 0
+06:12:27.928065 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [.], ack 2961, win 283, options [nop,nop,TS val 2752147 ecr 355843489], length 0
+06:12:27.960997 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 199:325, ack 2961, win 283, options [nop,nop,TS val 2752150 ecr 355843489], length 126
+06:12:28.227066 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [P.], seq 2961:3219, ack 325, win 75, options [nop,nop,TS val 355843565 ecr 2752150], length 258
+06:12:28.230343 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 325:669, ack 3219, win 294, options [nop,nop,TS val 2752177 ecr 355843565], length 344
+06:12:28.308804 IP 10.0.0.222.37516 > 10.0.0.1.domain: 40890+ AAAA? 192.168.0.0. (29)
+06:12:28.376693 IP 10.0.0.1.domain > 10.0.0.222.37516: 40890 NXDomain 0/1/0 (104)
+06:12:28.499109 IP ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https > 10.0.0.222.47675: Flags [P.], seq 3219:4194, ack 669, win 79, options [nop,nop,TS val 355843633 ecr 2752177], length 975
+06:12:28.532287 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [.], ack 4194, win 304, options [nop,nop,TS val 2752208 ecr 355843633], length 0
+06:12:29.360616 IP 10.0.0.222.64778 > 10.0.0.1.domain: 39234+ AAAA? 10.0.0.222. (28)
+06:12:29.433554 IP 10.0.0.1.domain > 10.0.0.222.64778: 39234 NXDomain 0/1/0 (103)
+06:12:29.912506 IP 10.0.0.222.mdns > 224.0.0.251.mdns: 0 PTR (QU)? _mozilla_papi._tcp.local. (42)
+06:12:29.912645 IP 10.0.0.222.mdns > 224.0.0.251.mdns: 0 PTR (QU)? _mozilla_papi._tcp.local. (42)
+06:12:29.912813 IP 10.0.0.222 > 224.0.0.251: igmp v2 report 224.0.0.251
+06:12:29.912852 IP 10.0.0.222 > 224.0.0.251: igmp v2 report 224.0.0.251
+06:12:30.350277 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:33.365099 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:36.122318 IP 10.0.0.222.62936 > 10.0.0.1.domain: 39742+ A? mail.google.com. (33)
+06:12:36.123968 IP 10.0.0.222.59299 > 10.0.0.1.domain: 44737+ A? google.co.in. (30)
+06:12:36.188466 IP 10.0.0.1.domain > 10.0.0.222.62936: 39742 2/0/0 CNAME googlemail.l.google.com., A 216.58.220.165 (76)
+06:12:36.193160 IP 10.0.0.1.domain > 10.0.0.222.59299: 44737 1/0/0 A 216.58.199.131 (46)
+06:12:36.194104 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [S], seq 1766356011, win 64240, options [mss 1460,sackOK,TS val 2752974 ecr 0,nop,wscale 8], length 0
+06:12:36.195538 IP 10.0.0.222.44880 > bom07s01-in-f3.1e100.net.http: Flags [S], seq 3778534804, win 64240, options [mss 1460,sackOK,TS val 2752974 ecr 0,nop,wscale 8], length 0
+06:12:36.195734 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44880: Flags [S.], seq 1448515585, ack 3778534805, win 28960, options [mss 1460,sackOK,TS val 423057 ecr 2752974,nop,wscale 7], length 0
+06:12:36.197065 IP 10.0.0.222.44880 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1, win 251, options [nop,nop,TS val 2752974 ecr 423057], length 0
+06:12:36.197448 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [S.], seq 151014657, ack 1766356012, win 42540, options [mss 1430,sackOK,TS val 1212313881 ecr 2752974,nop,wscale 7], length 0
+06:12:36.199325 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2752974 ecr 1212313881], length 0
+06:12:36.200780 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [P.], seq 1:204, ack 1, win 251, options [nop,nop,TS val 2752974 ecr 1212313881], length 203
+06:12:36.203577 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], ack 204, win 341, options [nop,nop,TS val 1212313888 ecr 2752974], length 0
+06:12:36.204688 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], seq 1:1349, ack 204, win 341, options [nop,nop,TS val 1212313888 ecr 2752974], length 1348
+06:12:36.204843 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], seq 1349:2697, ack 204, win 341, options [nop,nop,TS val 1212313888 ecr 2752974], length 1348
+06:12:36.204932 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [P.], seq 2697:3159, ack 204, win 341, options [nop,nop,TS val 1212313888 ecr 2752974], length 462
+06:12:36.206849 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2752975 ecr 1212313888], length 0
+06:12:36.207196 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2752975 ecr 1212313888], length 0
+06:12:36.207463 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 3159, win 283, options [nop,nop,TS val 2752975 ecr 1212313888], length 0
+06:12:36.257366 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.257597 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:36.273663 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.273841 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:36.277602 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [P.], seq 204:330, ack 3159, win 283, options [nop,nop,TS val 2752982 ecr 1212313888], length 126
+06:12:36.280975 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [P.], seq 3159:3421, ack 330, win 341, options [nop,nop,TS val 1212313965 ecr 2752982], length 262
+06:12:36.281110 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [P.], seq 3421:3477, ack 330, win 341, options [nop,nop,TS val 1212313965 ecr 2752982], length 56
+06:12:36.281215 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [P.], seq 3477:3519, ack 330, win 341, options [nop,nop,TS val 1212313965 ecr 2752982], length 42
+06:12:36.282032 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 3421, win 294, options [nop,nop,TS val 2752982 ecr 1212313965], length 0
+06:12:36.282324 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 3477, win 294, options [nop,nop,TS val 2752982 ecr 1212313965], length 0
+06:12:36.282987 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 3519, win 294, options [nop,nop,TS val 2752983 ecr 1212313965], length 0
+06:12:36.285973 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [P.], seq 330:487, ack 3519, win 294, options [nop,nop,TS val 2752983 ecr 1212313965], length 157
+06:12:36.286206 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [P.], seq 487:525, ack 3519, win 294, options [nop,nop,TS val 2752983 ecr 1212313965], length 38
+06:12:36.288702 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [P.], seq 3519:3557, ack 487, win 350, options [nop,nop,TS val 1212313972 ecr 2752983], length 38
+06:12:36.290807 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.290944 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:36.308476 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.308669 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:36.322720 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 3557, win 294, options [nop,nop,TS val 2752987 ecr 1212313972], length 0
+06:12:36.324878 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.325046 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:36.328379 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], ack 525, win 350, options [nop,nop,TS val 1212314012 ecr 2752983], length 0
+06:12:36.341461 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.341620 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:36.357636 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.373955 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.390398 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.392145 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:36.406770 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.423232 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.439598 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.456222 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.472790 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.489458 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.505868 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.522652 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.538960 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.555516 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.571995 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.588480 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.604919 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.621427 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:36.638265 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.507215 IP 10.0.0.222.57747 > 10.0.0.1.domain: 58347+ A? www.google.co.in. (34)
+06:12:37.511473 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.511616 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:37.522274 IP bom05s08-in-f14.1e100.net.http > 10.0.0.222.51811: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 423190 ecr 2752107], length 0
+06:12:37.528090 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.544423 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.560452 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.562712 IP 10.0.0.222.51811 > bom05s08-in-f14.1e100.net.http: Flags [.], ack 164, win 256, options [nop,nop,TS val 2753111 ecr 423190], length 0
+06:12:37.574323 IP 10.0.0.1.domain > 10.0.0.222.57747: 58347 1/0/0 A 216.58.199.131 (50)
+06:12:37.576343 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [S], seq 355160663, win 64240, options [mss 1460,sackOK,TS val 2753112 ecr 0,nop,wscale 8], length 0
+06:12:37.576628 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [S.], seq 707372159, ack 355160664, win 28960, options [mss 1460,sackOK,TS val 423195 ecr 2753112,nop,wscale 7], length 0
+06:12:37.576824 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.577560 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753112 ecr 423195], length 0
+06:12:37.578381 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [P.], seq 1:482, ack 1, win 251, options [nop,nop,TS val 2753112 ecr 423195], length 481
+06:12:37.578570 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], ack 482, win 235, options [nop,nop,TS val 423196 ecr 2753112], length 0
+06:12:37.595882 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.612197 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.629245 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.632753 IP 10.0.0.222 > 239.255.255.250: igmp v2 report 239.255.255.250
+06:12:37.632858 IP 10.0.0.222 > 239.255.255.250: igmp v2 report 239.255.255.250
+06:12:37.645759 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.661644 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.678503 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.694778 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.711290 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.727793 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.752606 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.761032 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.778028 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.794057 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.810655 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.826778 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.843646 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.860155 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.877011 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:37.893297 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.126850 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 1:1449, ack 482, win 235, options [nop,nop,TS val 423250 ecr 2753112], length 1448
+06:12:38.127075 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 1449:2897, ack 482, win 235, options [nop,nop,TS val 423250 ecr 2753112], length 1448
+06:12:38.127220 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 2897:4345, ack 482, win 235, options [nop,nop,TS val 423251 ecr 2753112], length 1448
+06:12:38.127313 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 4345:5793, ack 482, win 235, options [nop,nop,TS val 423251 ecr 2753112], length 1448
+06:12:38.127364 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 5793:7241, ack 482, win 235, options [nop,nop,TS val 423251 ecr 2753112], length 1448
+06:12:38.127445 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 7241:8689, ack 482, win 235, options [nop,nop,TS val 423251 ecr 2753112], length 1448
+06:12:38.127533 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 8689:10137, ack 482, win 235, options [nop,nop,TS val 423251 ecr 2753112], length 1448
+06:12:38.127589 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], seq 10137:11585, ack 482, win 235, options [nop,nop,TS val 423251 ecr 2753112], length 1448
+06:12:38.147115 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [P.], seq 11585:12950, ack 482, win 235, options [nop,nop,TS val 423253 ecr 2753112], length 1365
+06:12:38.208437 IP 10.0.0.222.39527 > 10.0.0.1.domain: 36588+ A? www.google.com. (32)
+06:12:38.210096 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1449, win 263, options [nop,nop,TS val 2753175 ecr 423250], length 0
+06:12:38.210362 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 2897, win 274, options [nop,nop,TS val 2753175 ecr 423250], length 0
+06:12:38.211388 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 4345, win 285, options [nop,nop,TS val 2753175 ecr 423251], length 0
+06:12:38.211625 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.211839 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 5793, win 297, options [nop,nop,TS val 2753175 ecr 423251], length 0
+06:12:38.212883 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 7241, win 308, options [nop,nop,TS val 2753176 ecr 423251], length 0
+06:12:38.213071 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 8689, win 319, options [nop,nop,TS val 2753176 ecr 423251], length 0
+06:12:38.214172 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 10137, win 331, options [nop,nop,TS val 2753176 ecr 423251], length 0
+06:12:38.214750 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 11585, win 342, options [nop,nop,TS val 2753176 ecr 423251], length 0
+06:12:38.214979 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 12950, win 353, options [nop,nop,TS val 2753176 ecr 423253], length 0
+06:12:38.216874 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 94
+06:12:38.216969 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 94
+06:12:38.228642 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.247187 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.263603 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.263808 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:38.280742 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.297273 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.310704 IP 10.0.0.1.domain > 10.0.0.222.39527: 36588 1/0/0 A 216.58.199.132 (48)
+06:12:38.312949 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [S], seq 179973159, win 64240, options [mss 1460,sackOK,TS val 2753186 ecr 0,nop,wscale 8], length 0
+06:12:38.313242 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.315764 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [S.], seq 1407306532, ack 179973160, win 42540, options [mss 1430,sackOK,TS val 1962108766 ecr 2753186,nop,wscale 7], length 0
+06:12:38.316898 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753186 ecr 1962108766], length 0
+06:12:38.317502 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 1:203, ack 1, win 251, options [nop,nop,TS val 2753186 ecr 1962108766], length 202
+06:12:38.319459 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [S], seq 1590195380, win 64240, options [mss 1460,sackOK,TS val 2753186 ecr 0,nop,wscale 8], length 0
+06:12:38.319996 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [.], ack 203, win 341, options [nop,nop,TS val 1962108770 ecr 2753186], length 0
+06:12:38.322414 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [.], seq 1:1349, ack 203, win 341, options [nop,nop,TS val 1962108771 ecr 2753186], length 1348
+06:12:38.322691 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [.], seq 1349:2697, ack 203, win 341, options [nop,nop,TS val 1962108771 ecr 2753186], length 1348
+06:12:38.322761 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [P.], seq 2697:3515, ack 203, win 341, options [nop,nop,TS val 1962108771 ecr 2753186], length 818
+06:12:38.322863 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [S.], seq 1341767617, ack 1590195381, win 42540, options [mss 1430,sackOK,TS val 1962072667 ecr 2753186,nop,wscale 7], length 0
+06:12:38.324033 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2753187 ecr 1962108771], length 0
+06:12:38.327098 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2753187 ecr 1962108771], length 0
+06:12:38.327414 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 3515, win 283, options [nop,nop,TS val 2753187 ecr 1962108771], length 0
+06:12:38.327515 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753187 ecr 1962072667], length 0
+06:12:38.329620 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.331630 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 1:181, ack 1, win 251, options [nop,nop,TS val 2753187 ecr 1962072667], length 180
+06:12:38.334165 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [.], ack 181, win 341, options [nop,nop,TS val 1962072679 ecr 2753187], length 0
+06:12:38.337341 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [.], seq 1:1349, ack 181, win 341, options [nop,nop,TS val 1962072682 ecr 2753187], length 1348
+06:12:38.337535 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [.], seq 1349:2697, ack 181, win 341, options [nop,nop,TS val 1962072682 ecr 2753187], length 1348
+06:12:38.337636 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [P.], seq 2697:3521, ack 181, win 341, options [nop,nop,TS val 1962072682 ecr 2753187], length 824
+06:12:38.338761 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2753188 ecr 1962072682], length 0
+06:12:38.339007 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2753188 ecr 1962072682], length 0
+06:12:38.340014 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 3521, win 283, options [nop,nop,TS val 2753188 ecr 1962072682], length 0
+06:12:38.345132 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 203:329, ack 3515, win 283, options [nop,nop,TS val 2753189 ecr 1962108771], length 126
+06:12:38.345572 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 329:486, ack 3515, win 283, options [nop,nop,TS val 2753189 ecr 1962108771], length 157
+06:12:38.345752 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.348524 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [P.], seq 3515:3777, ack 486, win 350, options [nop,nop,TS val 1962108798 ecr 2753189], length 262
+06:12:38.348664 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [P.], seq 3777:3833, ack 486, win 350, options [nop,nop,TS val 1962108798 ecr 2753189], length 56
+06:12:38.348825 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [P.], seq 3833:3875, ack 486, win 350, options [nop,nop,TS val 1962108798 ecr 2753189], length 42
+06:12:38.348876 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [P.], seq 3875:3913, ack 486, win 350, options [nop,nop,TS val 1962108798 ecr 2753189], length 38
+06:12:38.350645 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 486:524, ack 3913, win 294, options [nop,nop,TS val 2753189 ecr 1962108798], length 38
+06:12:38.362081 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.378457 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.389646 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 181:307, ack 3521, win 283, options [nop,nop,TS val 2753193 ecr 1962072682], length 126
+06:12:38.393618 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [.], ack 524, win 350, options [nop,nop,TS val 1962108843 ecr 2753189], length 0
+06:12:38.393786 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [P.], seq 3521:3783, ack 307, win 341, options [nop,nop,TS val 1962072738 ecr 2753193], length 262
+06:12:38.394987 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.395100 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 3783, win 294, options [nop,nop,TS val 2753194 ecr 1962072738], length 0
+06:12:38.399223 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 307:546, ack 3783, win 294, options [nop,nop,TS val 2753194 ecr 1962072738], length 239
+06:12:38.411681 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.418431 IP 10.0.0.222.56500 > 10.0.0.1.domain: 55931+ A? safebrowsing.google.com. (41)
+06:12:38.428399 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.432973 IP 10.0.0.222.45848 > 10.0.0.1.domain: 62746+ A? ssl.gstatic.com. (33)
+06:12:38.441278 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [.], ack 546, win 350, options [nop,nop,TS val 1962072787 ecr 2753194], length 0
+06:12:38.445292 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.461997 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.478314 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.479163 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [P.], seq 3783:4560, ack 546, win 350, options [nop,nop,TS val 1962072824 ecr 2753194], length 777
+06:12:38.494554 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.504252 IP 10.0.0.1.domain > 10.0.0.222.56500: 55931 2/0/0 CNAME sb.l.google.com., A 216.58.199.142 (76)
+06:12:38.506549 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [S], seq 1423922417, win 64240, options [mss 1460,sackOK,TS val 2753205 ecr 0,nop,wscale 8], length 0
+06:12:38.511016 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.512790 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 4560, win 304, options [nop,nop,TS val 2753206 ecr 1962072824], length 0
+06:12:38.527541 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.530383 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [S.], seq 3079287029, ack 1423922418, win 42540, options [mss 1430,sackOK,TS val 1961974303 ecr 2753205,nop,wscale 7], length 0
+06:12:38.531296 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753207 ecr 1961974303], length 0
+06:12:38.531827 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 1:212, ack 1, win 251, options [nop,nop,TS val 2753207 ecr 1961974303], length 211
+06:12:38.543983 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.546268 IP 10.0.0.1.domain > 10.0.0.222.45848: 62746 1/0/0 A 216.58.199.131 (49)
+06:12:38.548759 IP 10.0.0.222.44884 > bom07s01-in-f3.1e100.net.http: Flags [S], seq 1969954839, win 64240, options [mss 1460,sackOK,TS val 2753209 ecr 0,nop,wscale 8], length 0
+06:12:38.549016 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44884: Flags [S.], seq 1623130906, ack 1969954840, win 28960, options [mss 1460,sackOK,TS val 423293 ecr 2753209,nop,wscale 7], length 0
+06:12:38.550039 IP 10.0.0.222.44884 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753209 ecr 423293], length 0
+06:12:38.555024 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 212, win 341, options [nop,nop,TS val 1961974328 ecr 2753207], length 0
+06:12:38.555859 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], seq 1:1349, ack 212, win 341, options [nop,nop,TS val 1961974328 ecr 2753207], length 1348
+06:12:38.556069 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], seq 1349:2697, ack 212, win 341, options [nop,nop,TS val 1961974328 ecr 2753207], length 1348
+06:12:38.556163 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 2697:4018, ack 212, win 341, options [nop,nop,TS val 1961974328 ecr 2753207], length 1321
+06:12:38.557279 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2753210 ecr 1961974328], length 0
+06:12:38.557876 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2753210 ecr 1961974328], length 0
+06:12:38.558124 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], ack 4018, win 283, options [nop,nop,TS val 2753210 ecr 1961974328], length 0
+06:12:38.562135 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.576650 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.577069 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 212:338, ack 4018, win 283, options [nop,nop,TS val 2753212 ecr 1961974328], length 126
+06:12:38.578331 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 338:495, ack 4018, win 283, options [nop,nop,TS val 2753212 ecr 1961974328], length 157
+06:12:38.578588 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 495:928, ack 4018, win 283, options [nop,nop,TS val 2753212 ecr 1961974328], length 433
+06:12:38.579253 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], seq 928:2346, ack 4018, win 283, options [nop,nop,TS val 2753212 ecr 1961974328], length 1418
+06:12:38.579668 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], seq 2346:3764, ack 4018, win 283, options [nop,nop,TS val 2753212 ecr 1961974328], length 1418
+06:12:38.579928 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 3764:4195, ack 4018, win 283, options [nop,nop,TS val 2753212 ecr 1961974328], length 431
+06:12:38.593200 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.600771 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 4018:4280, ack 338, win 341, options [nop,nop,TS val 1961974373 ecr 2753212], length 262
+06:12:38.600924 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 4280:4336, ack 338, win 341, options [nop,nop,TS val 1961974374 ecr 2753212], length 56
+06:12:38.601043 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 4336:4378, ack 338, win 341, options [nop,nop,TS val 1961974374 ecr 2753212], length 42
+06:12:38.601592 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 4378:4416, ack 495, win 350, options [nop,nop,TS val 1961974374 ecr 2753212], length 38
+06:12:38.602886 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 2346, win 380, options [nop,nop,TS val 1961974376 ecr 2753212], length 0
+06:12:38.603041 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 4195:4233, ack 4416, win 294, options [nop,nop,TS val 2753215 ecr 1961974373], length 38
+06:12:38.603450 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 4195, win 409, options [nop,nop,TS val 1961974376 ecr 2753212], length 0
+06:12:38.609880 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.626442 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.643570 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.660472 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.663319 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 4416:4647, ack 4233, win 409, options [nop,nop,TS val 1961974436 ecr 2753215], length 231
+06:12:38.663543 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 4647:5254, ack 4233, win 409, options [nop,nop,TS val 1961974436 ecr 2753215], length 607
+06:12:38.663655 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [P.], seq 5254:5300, ack 4233, win 409, options [nop,nop,TS val 1961974436 ecr 2753215], length 46
+06:12:38.669328 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], ack 5300, win 315, options [nop,nop,TS val 2753221 ecr 1961974436], length 0
+06:12:38.672197 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 4233:4279, ack 5300, win 315, options [nop,nop,TS val 2753221 ecr 1961974436], length 46
+06:12:38.673189 IP 10.0.0.222 > 224.0.0.251: igmp v2 report 224.0.0.251
+06:12:38.673278 IP 10.0.0.222 > 224.0.0.251: igmp v2 report 224.0.0.251
+06:12:38.677455 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.695783 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.714932 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.729785 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.736573 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 4279, win 409, options [nop,nop,TS val 1961974509 ecr 2753221], length 0
+06:12:38.746192 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.762406 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.779348 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.795500 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.812208 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.828325 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.843573 IP 10.0.0.222.49591 > 10.0.0.1.domain: 33053+ A? safebrowsing-cache.google.com. (47)
+06:12:38.844744 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.861311 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.877765 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.894245 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.910775 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.927262 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.943746 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.960040 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.975920 IP 10.0.0.1.domain > 10.0.0.222.49591: 33053 2/0/0 CNAME safebrowsing.cache.l.google.com., A 216.58.220.174 (98)
+06:12:38.976590 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.978475 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [S], seq 2819104156, win 64240, options [mss 1460,sackOK,TS val 2753252 ecr 0,nop,wscale 8], length 0
+06:12:38.993003 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:38.998639 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [S.], seq 3896062154, ack 2819104157, win 42540, options [mss 1430,sackOK,TS val 1579342625 ecr 2753252,nop,wscale 7], length 0
+06:12:38.999878 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753254 ecr 1579342625], length 0
+06:12:39.000573 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1:218, ack 1, win 251, options [nop,nop,TS val 2753254 ecr 1579342625], length 217
+06:12:39.009620 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.021746 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 218, win 341, options [nop,nop,TS val 1579342648 ecr 2753254], length 0
+06:12:39.023647 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], seq 1:1349, ack 218, win 341, options [nop,nop,TS val 1579342648 ecr 2753254], length 1348
+06:12:39.023866 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], seq 1349:2697, ack 218, win 341, options [nop,nop,TS val 1579342648 ecr 2753254], length 1348
+06:12:39.023957 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 2697:4016, ack 218, win 341, options [nop,nop,TS val 1579342648 ecr 2753254], length 1319
+06:12:39.025008 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2753257 ecr 1579342648], length 0
+06:12:39.025243 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2753257 ecr 1579342648], length 0
+06:12:39.026020 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.026273 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 4016, win 283, options [nop,nop,TS val 2753257 ecr 1579342648], length 0
+06:12:39.042491 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 218:344, ack 4016, win 283, options [nop,nop,TS val 2753258 ecr 1579342648], length 126
+06:12:39.042788 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.044226 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 344:501, ack 4016, win 283, options [nop,nop,TS val 2753259 ecr 1579342648], length 157
+06:12:39.044581 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 501:937, ack 4016, win 283, options [nop,nop,TS val 2753259 ecr 1579342648], length 436
+06:12:39.059512 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.062788 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4016:4294, ack 344, win 341, options [nop,nop,TS val 1579342689 ecr 2753258], length 278
+06:12:39.062969 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4294:4350, ack 344, win 341, options [nop,nop,TS val 1579342689 ecr 2753258], length 56
+06:12:39.063109 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4350:4392, ack 344, win 341, options [nop,nop,TS val 1579342689 ecr 2753258], length 42
+06:12:39.064298 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 937, win 358, options [nop,nop,TS val 1579342691 ecr 2753259], length 0
+06:12:39.064768 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 937:975, ack 4392, win 294, options [nop,nop,TS val 2753261 ecr 1579342689], length 38
+06:12:39.065156 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4392:4430, ack 937, win 358, options [nop,nop,TS val 1579342692 ecr 2753259], length 38
+06:12:39.065611 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4430:4686, ack 937, win 358, options [nop,nop,TS val 1579342693 ecr 2753259], length 256
+06:12:39.065768 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4686:4906, ack 937, win 358, options [nop,nop,TS val 1579342693 ecr 2753259], length 220
+06:12:39.065860 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4906:4952, ack 937, win 358, options [nop,nop,TS val 1579342693 ecr 2753259], length 46
+06:12:39.066785 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 4686, win 304, options [nop,nop,TS val 2753261 ecr 1579342692], length 0
+06:12:39.067736 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 4952, win 315, options [nop,nop,TS val 2753261 ecr 1579342693], length 0
+06:12:39.068005 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 975:1021, ack 4952, win 315, options [nop,nop,TS val 2753261 ecr 1579342693], length 46
+06:12:39.076387 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.088141 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1021, win 358, options [nop,nop,TS val 1579342715 ecr 2753261], length 0
+06:12:39.093108 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.096772 IP 10.0.0.222.59036 > 10.0.0.1.domain: 51897+ A? clients1.google.co.in. (39)
+06:12:39.109692 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.126449 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.142895 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.149195 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 98
+06:12:39.149311 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 98
+06:12:39.159197 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.173951 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1021:1159, ack 4952, win 315, options [nop,nop,TS val 2753272 ecr 1579342715], length 138
+06:12:39.175258 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.191635 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.194715 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 4952:5033, ack 1159, win 366, options [nop,nop,TS val 1579342821 ecr 2753272], length 81
+06:12:39.195214 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 5033:6381, ack 1159, win 366, options [nop,nop,TS val 1579342821 ecr 2753272], length 1348
+06:12:39.195436 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 6381:7729, ack 1159, win 366, options [nop,nop,TS val 1579342821 ecr 2753272], length 1348
+06:12:39.195675 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 7729:9077, ack 1159, win 366, options [nop,nop,TS val 1579342821 ecr 2753272], length 1348
+06:12:39.195785 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 9077:10425, ack 1159, win 366, options [nop,nop,TS val 1579342821 ecr 2753272], length 1348
+06:12:39.195949 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 10425:11382, ack 1159, win 366, options [nop,nop,TS val 1579342821 ecr 2753272], length 957
+06:12:39.199061 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 11382, win 367, options [nop,nop,TS val 2753274 ecr 1579342821], length 0
+06:12:39.199207 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1159:1205, ack 11382, win 367, options [nop,nop,TS val 2753274 ecr 1579342821], length 46
+06:12:39.208179 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.210440 IP 10.0.0.1.domain > 10.0.0.222.59036: 51897 2/0/0 CNAME clients-cctld.l.google.com., A 216.58.199.131 (95)
+06:12:39.214009 IP 10.0.0.222.44886 > bom07s01-in-f3.1e100.net.http: Flags [S], seq 3085022660, win 64240, options [mss 1460,sackOK,TS val 2753276 ecr 0,nop,wscale 8], length 0
+06:12:39.214276 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44886: Flags [S.], seq 330764607, ack 3085022661, win 28960, options [mss 1460,sackOK,TS val 423359 ecr 2753276,nop,wscale 7], length 0
+06:12:39.215204 IP 10.0.0.222.44886 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753276 ecr 423359], length 0
+06:12:39.215828 IP 10.0.0.222.44886 > bom07s01-in-f3.1e100.net.http: Flags [P.], seq 1:444, ack 1, win 251, options [nop,nop,TS val 2753276 ecr 423359], length 443
+06:12:39.215969 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44886: Flags [.], ack 444, win 235, options [nop,nop,TS val 423359 ecr 2753276], length 0
+06:12:39.224572 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.232712 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1205:1327, ack 11382, win 367, options [nop,nop,TS val 2753277 ecr 1579342821], length 122
+06:12:39.242308 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.252433 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1327, win 366, options [nop,nop,TS val 1579342880 ecr 2753274], length 0
+06:12:39.252791 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 11382:11463, ack 1327, win 366, options [nop,nop,TS val 1579342880 ecr 2753274], length 81
+06:12:39.253017 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 11463:11941, ack 1327, win 366, options [nop,nop,TS val 1579342880 ecr 2753274], length 478
+06:12:39.253072 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 11941:11987, ack 1327, win 366, options [nop,nop,TS val 1579342880 ecr 2753274], length 46
+06:12:39.255097 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 11987, win 378, options [nop,nop,TS val 2753280 ecr 1579342880], length 0
+06:12:39.255418 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1327:1373, ack 11987, win 378, options [nop,nop,TS val 2753280 ecr 1579342880], length 46
+06:12:39.258577 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.258765 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port 4886 unreachable, length 36
+06:12:39.259669 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1373:1514, ack 11987, win 378, options [nop,nop,TS val 2753280 ecr 1579342880], length 141
+06:12:39.275465 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.279720 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1514, win 375, options [nop,nop,TS val 1579342907 ecr 2753280], length 0
+06:12:39.280216 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 11987:12067, ack 1514, win 375, options [nop,nop,TS val 1579342907 ecr 2753280], length 80
+06:12:39.280449 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 12067:12177, ack 1514, win 375, options [nop,nop,TS val 1579342907 ecr 2753280], length 110
+06:12:39.280557 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [P.], seq 12177:12223, ack 1514, win 375, options [nop,nop,TS val 1579342907 ecr 2753280], length 46
+06:12:39.281685 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 12177, win 378, options [nop,nop,TS val 2753282 ecr 1579342907], length 0
+06:12:39.282101 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1514:1560, ack 12223, win 378, options [nop,nop,TS val 2753282 ecr 1579342907], length 46
+06:12:39.291354 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.308398 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.324953 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.342048 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.349156 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1560, win 375, options [nop,nop,TS val 1579342968 ecr 2753282], length 0
+06:12:39.359177 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.375438 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.392597 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.409245 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.425560 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.442497 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.459101 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.468070 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:39.475209 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.491680 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.507843 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:39.524088 IP 10.0.0.222.41201 > 10.0.0.1.4886: UDP, length 0
+06:12:40.136967 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 130
+06:12:40.137134 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 130
+06:12:40.514835 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44886: Flags [P.], seq 1:155, ack 444, win 235, options [nop,nop,TS val 423489 ecr 2753276], length 154
+06:12:40.516655 IP 10.0.0.222.44886 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 155, win 256, options [nop,nop,TS val 2753406 ecr 423489], length 0
+06:12:40.589085 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [S], seq 849573129, win 64240, options [mss 1460,sackOK,TS val 2753413 ecr 0,nop,wscale 8], length 0
+06:12:40.589344 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [S.], seq 2059112111, ack 849573130, win 28960, options [mss 1460,sackOK,TS val 423497 ecr 2753413,nop,wscale 7], length 0
+06:12:40.590535 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753413 ecr 423497], length 0
+06:12:40.591713 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [P.], seq 1:216, ack 1, win 251, options [nop,nop,TS val 2753413 ecr 423497], length 215
+06:12:40.591848 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [.], ack 216, win 235, options [nop,nop,TS val 423497 ecr 2753413], length 0
+06:12:40.635675 IP 10.0.0.222.63845 > 10.0.0.1.domain: 55719+ A? account.google.com. (36)
+06:12:40.769537 IP 10.0.0.1.domain > 10.0.0.222.63845: 55719* 1/0/0 A 216.58.199.141 (52)
+06:12:40.920038 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [.], seq 1:1449, ack 216, win 235, options [nop,nop,TS val 423530 ecr 2753413], length 1448
+06:12:40.920282 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [.], seq 1449:2897, ack 216, win 235, options [nop,nop,TS val 423530 ecr 2753413], length 1448
+06:12:40.920405 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [.], seq 2897:4345, ack 216, win 235, options [nop,nop,TS val 423530 ecr 2753413], length 1448
+06:12:40.920809 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [P.], seq 4345:5787, ack 216, win 235, options [nop,nop,TS val 423530 ecr 2753413], length 1442
+06:12:40.921666 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 1449, win 263, options [nop,nop,TS val 2753446 ecr 423530], length 0
+06:12:40.922348 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 2897, win 274, options [nop,nop,TS val 2753446 ecr 423530], length 0
+06:12:40.922930 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 4345, win 285, options [nop,nop,TS val 2753446 ecr 423530], length 0
+06:12:40.923505 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 5787, win 297, options [nop,nop,TS val 2753447 ecr 423530], length 0
+06:12:41.125575 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 94
+06:12:41.125690 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 94
+06:12:41.197917 IP 10.0.0.222.44880 > bom07s01-in-f3.1e100.net.http: Flags [F.], seq 1, ack 1, win 251, options [nop,nop,TS val 2753474 ecr 423057], length 0
+06:12:41.204428 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44880: Flags [F.], seq 1, ack 2, win 227, options [nop,nop,TS val 423558 ecr 2753474], length 0
+06:12:41.205536 IP 10.0.0.222.44880 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 2, win 251, options [nop,nop,TS val 2753475 ecr 423558], length 0
+06:12:42.141356 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 98
+06:12:42.141486 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 98
+06:12:42.483684 ARP, Reply pi is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+06:12:43.141036 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 130
+06:12:43.141166 IP 10.0.0.222.1900 > 239.255.255.250.1900: UDP, length 130
+06:12:43.291779 IP 10.0.0.222.44049 > 10.0.0.1.domain: 51672+ A? shavar.services.mozilla.com. (45)
+06:12:43.298880 IP 10.0.0.1.domain > 10.0.0.222.44049: 51672 9/0/0 CNAME shavar.prod.mozaws.net., A 52.24.153.184, A 54.191.71.231, A 52.27.92.252, A 52.38.179.134, A 52.43.181.49, A 54.148.163.250, A 52.24.240.17, A 54.69.17.198 (209)
+06:12:43.307119 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [S], seq 161068326, win 64240, options [mss 1460,sackOK,TS val 2753685 ecr 0,nop,wscale 8], length 0
+06:12:43.433308 IP 10.0.0.222 > all-routers.mcast.net: igmp leave 239.255.255.250
+06:12:43.433403 IP 10.0.0.222 > all-routers.mcast.net: igmp leave 239.255.255.250
+06:12:43.453149 IP 10.0.0.222 > 239.255.255.250: igmp v2 report 239.255.255.250
+06:12:43.453272 IP 10.0.0.222 > 239.255.255.250: igmp v2 report 239.255.255.250
+06:12:43.460916 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [P.], seq 525:571, ack 3557, win 294, options [nop,nop,TS val 2753700 ecr 1212314012], length 46
+06:12:43.461228 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 4279:4325, ack 5300, win 315, options [nop,nop,TS val 2753700 ecr 1961974509], length 46
+06:12:43.461524 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 524:570, ack 3913, win 294, options [nop,nop,TS val 2753700 ecr 1962108843], length 46
+06:12:43.462552 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1560:1606, ack 12223, win 378, options [nop,nop,TS val 2753700 ecr 1579342968], length 46
+06:12:43.462805 IP 10.0.0.222.44884 > bom07s01-in-f3.1e100.net.http: Flags [F.], seq 1, ack 1, win 251, options [nop,nop,TS val 2753700 ecr 423293], length 0
+06:12:43.463066 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [F.], seq 482, ack 12950, win 353, options [nop,nop,TS val 2753701 ecr 423253], length 0
+06:12:43.463251 IP 10.0.0.222.44886 > bom07s01-in-f3.1e100.net.http: Flags [F.], seq 444, ack 155, win 256, options [nop,nop,TS val 2753701 ecr 423489], length 0
+06:12:43.464127 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], ack 571, win 350, options [nop,nop,TS val 1212321147 ecr 2753700], length 0
+06:12:43.464265 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [.], ack 570, win 350, options [nop,nop,TS val 1962113913 ecr 2753700], length 0
+06:12:43.464766 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [P.], seq 4325:4356, ack 5300, win 315, options [nop,nop,TS val 2753701 ecr 1961974509], length 31
+06:12:43.465217 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [F.], seq 4356, ack 5300, win 315, options [nop,nop,TS val 2753701 ecr 1961974509], length 0
+06:12:43.466128 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [P.], seq 570:601, ack 3913, win 294, options [nop,nop,TS val 2753701 ecr 1962113913], length 31
+06:12:43.466371 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [F.], seq 601, ack 3913, win 294, options [nop,nop,TS val 2753701 ecr 1962113913], length 0
+06:12:43.466882 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [P.], seq 1606:1637, ack 12223, win 378, options [nop,nop,TS val 2753701 ecr 1579342968], length 31
+06:12:43.467222 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44884: Flags [.], ack 2, win 227, options [nop,nop,TS val 423785 ecr 2753700], length 0
+06:12:43.467373 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [F.], seq 1637, ack 12223, win 378, options [nop,nop,TS val 2753701 ecr 1579342968], length 0
+06:12:43.467566 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [P.], seq 571:602, ack 3557, win 294, options [nop,nop,TS val 2753701 ecr 1212321147], length 31
+06:12:43.468124 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [F.], seq 602, ack 3557, win 294, options [nop,nop,TS val 2753701 ecr 1212321147], length 0
+06:12:43.468976 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [.], ack 601, win 350, options [nop,nop,TS val 1962113919 ecr 2753701], length 0
+06:12:43.469089 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.55539: Flags [F.], seq 3913, ack 602, win 350, options [nop,nop,TS val 1962113919 ecr 2753701], length 0
+06:12:43.470236 IP 10.0.0.222.55539 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 3914, win 294, options [nop,nop,TS val 2753701 ecr 1962113919], length 0
+06:12:43.470482 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], ack 602, win 350, options [nop,nop,TS val 1212321153 ecr 2753701], length 0
+06:12:43.470563 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [S], seq 136410404, win 64240, options [mss 1460,sackOK,TS val 2753701 ecr 0,nop,wscale 8], length 0
+06:12:43.470791 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [F.], seq 3557, ack 602, win 350, options [nop,nop,TS val 1212321153 ecr 2753701], length 0
+06:12:43.470928 IP bom07s10-in-f5.1e100.net.https > 10.0.0.222.36583: Flags [.], ack 603, win 350, options [nop,nop,TS val 1212321154 ecr 2753701], length 0
+06:12:43.471662 IP 10.0.0.222.36583 > bom07s10-in-f5.1e100.net.https: Flags [.], ack 3558, win 294, options [nop,nop,TS val 2753701 ecr 1212321153], length 0
+06:12:43.482381 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1606, win 375, options [nop,nop,TS val 1579347109 ecr 2753700], length 0
+06:12:43.484117 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 4325, win 409, options [nop,nop,TS val 1961979257 ecr 2753700], length 0
+06:12:43.486631 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1637, win 375, options [nop,nop,TS val 1579347113 ecr 2753701], length 0
+06:12:43.486742 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [F.], seq 12223, ack 1637, win 375, options [nop,nop,TS val 1579347113 ecr 2753701], length 0
+06:12:43.487180 IP bom07s10-in-f174.1e100.net.https > 10.0.0.222.33419: Flags [.], ack 1638, win 375, options [nop,nop,TS val 1579347114 ecr 2753701], length 0
+06:12:43.487750 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 4356, win 409, options [nop,nop,TS val 1961979260 ecr 2753701], length 0
+06:12:43.487860 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [F.], seq 5300, ack 4356, win 409, options [nop,nop,TS val 1961979260 ecr 2753701], length 0
+06:12:43.487985 IP 10.0.0.222.33419 > bom07s10-in-f174.1e100.net.https: Flags [.], ack 12224, win 378, options [nop,nop,TS val 2753703 ecr 1579347113], length 0
+06:12:43.488249 IP bom07s01-in-f142.1e100.net.https > 10.0.0.222.32923: Flags [.], ack 4357, win 409, options [nop,nop,TS val 1961979261 ecr 2753701], length 0
+06:12:43.488985 IP 10.0.0.222.32923 > bom07s01-in-f142.1e100.net.https: Flags [.], ack 5301, win 315, options [nop,nop,TS val 2753703 ecr 1961979260], length 0
+06:12:43.497181 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44886: Flags [.], ack 445, win 235, options [nop,nop,TS val 423788 ecr 2753701], length 0
+06:12:43.497408 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [.], ack 483, win 235, options [nop,nop,TS val 423788 ecr 2753701], length 0
+06:12:43.552959 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44884: Flags [F.], seq 1, ack 2, win 227, options [nop,nop,TS val 423793 ecr 2753700], length 0
+06:12:43.554163 IP 10.0.0.222.44884 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 2, win 251, options [nop,nop,TS val 2753710 ecr 423793], length 0
+06:12:43.565961 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [S.], seq 2509255701, ack 161068327, win 17898, options [mss 1440,sackOK,TS val 2701281678 ecr 2753685,nop,wscale 8], length 0
+06:12:43.567177 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753711 ecr 2701281678], length 0
+06:12:43.567789 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1:216, ack 1, win 251, options [nop,nop,TS val 2753711 ecr 2701281678], length 215
+06:12:43.579045 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44881: Flags [F.], seq 12950, ack 483, win 235, options [nop,nop,TS val 423796 ecr 2753701], length 0
+06:12:43.580246 IP 10.0.0.222.44881 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 12951, win 353, options [nop,nop,TS val 2753712 ecr 423796], length 0
+06:12:43.590795 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.44886: Flags [F.], seq 155, ack 445, win 235, options [nop,nop,TS val 423797 ecr 2753701], length 0
+06:12:43.592051 IP 10.0.0.222.44886 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 156, win 256, options [nop,nop,TS val 2753713 ecr 423797], length 0
+06:12:43.729235 IP 10.0.0.222.53028 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [S], seq 4062403453, win 64240, options [mss 1460,sackOK,TS val 2753727 ecr 0,nop,wscale 8], length 0
+06:12:43.731819 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53027: Flags [S.], seq 3261820362, ack 136410405, win 17898, options [mss 1440,sackOK,TS val 2701281718 ecr 2753701,nop,wscale 8], length 0
+06:12:43.733611 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753728 ecr 2701281718], length 0
+06:12:43.734550 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 1:216, ack 1, win 251, options [nop,nop,TS val 2753728 ecr 2701281718], length 215
+06:12:43.826350 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [.], ack 216, win 75, options [nop,nop,TS val 2701281743 ecr 2753711], length 0
+06:12:43.828959 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [.], seq 1:1349, ack 216, win 75, options [nop,nop,TS val 2701281743 ecr 2753711], length 1348
+06:12:43.829181 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [.], seq 1349:2697, ack 216, win 75, options [nop,nop,TS val 2701281743 ecr 2753711], length 1348
+06:12:43.829252 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [P.], seq 2697:3048, ack 216, win 75, options [nop,nop,TS val 2701281743 ecr 2753711], length 351
+06:12:43.830509 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2753737 ecr 2701281743], length 0
+06:12:43.831919 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2753737 ecr 2701281743], length 0
+06:12:43.832107 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 3048, win 283, options [nop,nop,TS val 2753737 ecr 2701281743], length 0
+06:12:43.853718 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 216:342, ack 3048, win 283, options [nop,nop,TS val 2753740 ecr 2701281743], length 126
+06:12:43.856249 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [P.], seq 342:944, ack 3048, win 283, options [nop,nop,TS val 2753740 ecr 2701281743], length 602
+06:12:43.995765 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53028: Flags [S.], seq 663560655, ack 4062403454, win 17898, options [mss 1440,sackOK,TS val 2701281784 ecr 2753727,nop,wscale 8], length 0
+06:12:43.995950 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53027: Flags [.], ack 216, win 75, options [nop,nop,TS val 2701281784 ecr 2753728], length 0
+06:12:43.997204 IP 10.0.0.222.53028 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1, win 251, options [nop,nop,TS val 2753754 ecr 2701281784], length 0
+06:12:43.997881 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53027: Flags [.], seq 1:1349, ack 216, win 75, options [nop,nop,TS val 2701281785 ecr 2753728], length 1348
+06:12:43.998096 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53027: Flags [.], seq 1349:2697, ack 216, win 75, options [nop,nop,TS val 2701281785 ecr 2753728], length 1348
+06:12:43.998145 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53027: Flags [P.], seq 2697:3048, ack 216, win 75, options [nop,nop,TS val 2701281785 ecr 2753728], length 351
+06:12:43.999335 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 1349, win 262, options [nop,nop,TS val 2753754 ecr 2701281785], length 0
+06:12:43.999740 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 2697, win 272, options [nop,nop,TS val 2753754 ecr 2701281785], length 0
+06:12:43.999988 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [.], ack 3048, win 283, options [nop,nop,TS val 2753754 ecr 2701281785], length 0
+06:12:44.080429 IP 10.0.0.222.47675 > ec2-35-161-194-122.us-west-2.compute.amazonaws.com.https: Flags [F.], seq 669, ack 4194, win 304, options [nop,nop,TS val 2753762 ecr 355843633], length 0
+06:12:44.088031 IP 10.0.0.222 > all-routers.mcast.net: igmp leave 224.0.0.251
+06:12:44.088130 IP 10.0.0.222 > all-routers.mcast.net: igmp leave 224.0.0.251
+06:12:44.089790 IP 10.0.0.222 > all-routers.mcast.net: igmp leave 239.255.255.250
+06:12:44.089860 IP 10.0.0.222 > all-routers.mcast.net: igmp leave 239.255.255.250
+06:12:44.089927 IP 10.0.0.222.53027 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [R.], seq 216, ack 3048, win 283, options [nop,nop,TS val 2753763 ecr 2701281785], length 0
+06:12:44.090145 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [F.], seq 944, ack 3048, win 283, options [nop,nop,TS val 2753763 ecr 2701281743], length 0
+06:12:44.092356 IP 10.0.0.222.53028 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [F.], seq 1, ack 1, win 251, options [nop,nop,TS val 2753763 ecr 2701281784], length 0
+06:12:44.092530 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [F.], seq 546, ack 4560, win 304, options [nop,nop,TS val 2753763 ecr 1962072824], length 0
+06:12:44.092760 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [F.], seq 216, ack 5787, win 297, options [nop,nop,TS val 2753763 ecr 423530], length 0
+06:12:44.094432 IP bom07s01-in-f3.1e100.net.http > 10.0.0.222.45183: Flags [F.], seq 5787, ack 217, win 235, options [nop,nop,TS val 423847 ecr 2753763], length 0
+06:12:44.095899 IP bom07s01-in-f132.1e100.net.https > 10.0.0.222.50349: Flags [F.], seq 4560, ack 547, win 350, options [nop,nop,TS val 1962078441 ecr 2753763], length 0
+06:12:44.096060 IP 10.0.0.222.45183 > bom07s01-in-f3.1e100.net.http: Flags [.], ack 5788, win 297, options [nop,nop,TS val 2753764 ecr 423847], length 0
+06:12:44.097180 IP 10.0.0.222.50349 > bom07s01-in-f132.1e100.net.https: Flags [.], ack 4561, win 304, options [nop,nop,TS val 2753764 ecr 1962078441], length 0
+06:12:44.113172 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [P.], seq 3048:3306, ack 342, win 75, options [nop,nop,TS val 2701281815 ecr 2753740], length 258
+06:12:44.114606 IP 10.0.0.222.53026 > ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https: Flags [R], seq 161068668, win 0, length 0
+06:12:44.119526 IP ec2-52-24-153-184.us-west-2.compute.amazonaws.com.https > 10.0.0.222.53026: Flags [P.], seq 3306:3481, ack 944, win 79, options [nop,nop,TS val 2701281816 ecr 2753740], length 175
+06:12:44.

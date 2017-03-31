@@ -1,0 +1,58 @@
+16:33:18.617128 ARP, Reply 192.168.0.100 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+16:33:21.636171 ARP, Reply 192.168.0.100 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+16:33:22.371497 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c4:e9:84:16:11:5e (oui Unknown), length 337
+16:33:24.654308 ARP, Reply 192.168.0.100 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+16:33:24.918742 c0:ee:fb:3b:35:93 (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 6: 01 00
+16:33:25.071245 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+16:33:25.071487 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+16:33:25.073479 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+16:33:25.082347 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+16:33:25.082573 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+16:33:25.095736 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+16:33:25.203632 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+16:33:25.203756 ARP, Reply 10.0.0.1 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+16:33:25.203884 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+16:33:25.206627 IP 10.0.0.222.14372 > 10.0.0.1.domain: 8646+ AAAA? connectivitycheck.gstatic.com. (47)
+16:33:25.255108 IP 10.0.0.222.5809 > 10.0.0.1.domain: 4117+ A? clients3.google.com. (37)
+16:33:25.286211 IP 10.0.0.1.domain > 10.0.0.222.14372: 8646 1/0/0 AAAA 2404:6800:4009:807::200e (75)
+16:33:25.288323 IP 10.0.0.222.25158 > 10.0.0.1.domain: 30+ A? connectivitycheck.gstatic.com. (47)
+16:33:25.327788 IP 10.0.0.1.domain > 10.0.0.222.5809: 4117 2/0/0 CNAME clients.l.google.com., A 216.58.199.174 (77)
+16:33:25.334122 IP 10.0.0.222.40691 > bom05s08-in-f174.1e100.net.http: Flags [S], seq 3566031536, win 65535, options [mss 1460,sackOK,TS val 763320 ecr 0,nop,wscale 8], length 0
+16:33:25.334373 IP bom05s08-in-f174.1e100.net.http > 10.0.0.222.40691: Flags [S.], seq 1261381163, ack 3566031537, win 28960, options [mss 1460,sackOK,TS val 4294948642 ecr 763320,nop,wscale 7], length 0
+16:33:25.336280 IP 10.0.0.222.40691 > bom05s08-in-f174.1e100.net.http: Flags [.], ack 1, win 343, options [nop,nop,TS val 763320 ecr 4294948642], length 0
+16:33:25.339076 IP 10.0.0.222.40691 > bom05s08-in-f174.1e100.net.http: Flags [P.], seq 1:177, ack 1, win 343, options [nop,nop,TS val 763320 ecr 4294948642], length 176
+16:33:25.339274 IP bom05s08-in-f174.1e100.net.http > 10.0.0.222.40691: Flags [.], ack 177, win 235, options [nop,nop,TS val 4294948643 ecr 763320], length 0
+16:33:25.360017 IP 10.0.0.1.domain > 10.0.0.222.25158: 30 1/0/0 A 216.58.199.142 (63)
+16:33:25.367407 IP 10.0.0.222.58413 > bom07s01-in-f142.1e100.net.http: Flags [S], seq 207342444, win 65535, options [mss 1460,sackOK,TS val 763323 ecr 0,nop,wscale 8], length 0
+16:33:25.367705 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.58413: Flags [S.], seq 2784286173, ack 207342445, win 28960, options [mss 1460,sackOK,TS val 4294948646 ecr 763323,nop,wscale 7], length 0
+16:33:25.369133 IP 10.0.0.222.58413 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 1, win 343, options [nop,nop,TS val 763323 ecr 4294948646], length 0
+16:33:25.370792 IP 10.0.0.222.58413 > bom07s01-in-f142.1e100.net.http: Flags [P.], seq 1:187, ack 1, win 343, options [nop,nop,TS val 763323 ecr 4294948646], length 186
+16:33:25.370920 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.58413: Flags [.], ack 187, win 235, options [nop,nop,TS val 4294948646 ecr 763323], length 0
+16:33:25.932373 IP bom05s08-in-f174.1e100.net.http > 10.0.0.222.40691: Flags [P.], seq 1:153, ack 177, win 235, options [nop,nop,TS val 4294948702 ecr 763320], length 152
+16:33:25.955037 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.58413: Flags [P.], seq 1:163, ack 187, win 235, options [nop,nop,TS val 4294948704 ecr 763323], length 162
+16:33:26.233813 IP 10.0.0.222.40691 > bom05s08-in-f174.1e100.net.http: Flags [.], ack 153, win 347, options [nop,nop,TS val 763410 ecr 4294948702], length 0
+16:33:26.234698 IP 10.0.0.222.58413 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 163, win 347, options [nop,nop,TS val 763410 ecr 4294948704], length 0
+16:33:26.278808 IP 10.0.0.222.24471 > 10.0.0.1.domain: 11583+ A? e1.whatsapp.net. (33)
+16:33:26.289643 IP 10.0.0.1.domain > 10.0.0.222.24471: 11583 8/0/0 A 169.55.67.245, A 174.36.208.149, A 173.193.205.18, A 158.85.58.47, A 174.37.199.204, A 169.47.5.215, A 173.193.230.113, A 174.37.217.83 (161)
+16:33:26.302022 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [S], seq 854070780, win 65535, options [mss 1460,sackOK,TS val 763417 ecr 0,nop,wscale 8], length 0
+16:33:27.312630 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [S], seq 854070780, win 65535, options [mss 1460,sackOK,TS val 763517 ecr 0,nop,wscale 8], length 0
+16:33:27.567807 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [S.], seq 2300770807, ack 854070781, win 65535, options [mss 1360,nop,wscale 9,sackOK,TS val 2621378088 ecr 763517], length 0
+16:33:27.570413 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [.], ack 1, win 343, options [nop,nop,TS val 763543 ecr 2621378088], length 0
+16:33:27.618571 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [P.], seq 1:5, ack 1, win 343, options [nop,nop,TS val 763548 ecr 2621378088], length 4
+16:33:27.671292 ARP, Reply 192.168.0.100 is-at c4:e9:84:16:11:5e (oui Unknown), length 28
+16:33:27.819936 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [.], ack 1, win 513, options [nop,nop,TS val 2621379356 ecr 763543], length 0
+16:33:27.897370 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [.], ack 5, win 513, options [nop,nop,TS val 2621379434 ecr 763548], length 0
+16:33:27.901113 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [P.], seq 5:241, ack 1, win 343, options [nop,nop,TS val 763576 ecr 2621379434], length 236
+16:33:28.156267 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [P.], seq 1:58, ack 241, win 513, options [nop,nop,TS val 2621379693 ecr 763576], length 57
+16:33:28.157094 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [P.], seq 58:101, ack 241, win 513, options [nop,nop,TS val 2621379693 ecr 763576], length 43
+16:33:28.188595 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [P.], seq 101:367, ack 241, win 513, options [nop,nop,TS val 2621379725 ecr 763576], length 266
+16:33:28.261576 IP 10.0.0.222.24017 > 10.0.0.1.domain: 20948+ AAAA? 192.168.0.0. (29)
+16:33:28.263454 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [.], ack 58, win 343, options [nop,nop,TS val 763613 ecr 2621379693], length 0
+16:33:28.264360 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [.], ack 101, win 343, options [nop,nop,TS val 763613 ecr 2621379693], length 0
+16:33:28.265195 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [.], ack 367, win 347, options [nop,nop,TS val 763613 ecr 2621379725], length 0
+16:33:28.276597 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [P.], seq 241:244, ack 367, win 347, options [nop,nop,TS val 763614 ecr 2621379725], length 3
+16:33:28.278379 IP 10.0.0.1.domain > 10.0.0.222.24017: 20948 NXDomain 0/1/0 (104)
+16:33:28.556834 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [.], ack 244, win 513, options [nop,nop,TS val 2621380092 ecr 763614], length 0
+16:33:28.558301 IP 10.0.0.222.43315 > 71.e6.c1ad.ip4.static.sl-reverse.com.https: Flags [P.], seq 244:393, ack 367, win 347, options [nop,nop,TS val 763642 ecr 2621380092], length 149
+16:33:28.808838 IP 71.e6.c1ad.ip4.static.sl-reverse.com.https > 10.0.0.222.43315: Flags [P.], seq 367:417, ack 393, win 513, options [nop,nop,TS val 2621380345 ecr 763642], length 50
+16:33:28.809402 IP 

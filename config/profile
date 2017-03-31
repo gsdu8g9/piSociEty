@@ -1,0 +1,29 @@
+#!/bin/bash
+
+tput bold;tput setaf 1;figlet -f small -c PI SociEty;tput setaf 7
+echo -e "\n`tput setaf 3`There are only 10 types of people in the world:
+[1] Those who understand binary
+[10] And those who don't.\n"
+
+echo -e "`tput setaf 1`[+][+][+] Developed by >>Paranoid Ninja<<`tput setaf 7`\n"
+
+echo -e "`tput setaf 2`Current Time: \t\t`uptime | cut  -d 'u' -f 1`\nSystem Uptime: \t\t`uptime | cut  -d 'p' -f 2 | cut -d ',' -f 1`\nTotal Logged in Users: `uptime | cut  -d ',' -f 2`\n"
+echo -e "`tput setaf 3`Pi-SociEty Catalogue:`tput setaf 7`\n"
+echo -e "[1] Run Pi-SociEty"
+echo -e "[2] Jailbreak mode\n"
+read -e -p "`tput setaf 3`>>> `tput setaf 7`" -n3 answer
+if [[ $answer == '1' ]]; then
+	cd /root/Desktop/piSociEty/
+	./piSociEty
+elif [[ $answer == '2' ]]; then
+	echo -e "`tput setaf 1`Running Jailbreak mode...`tput setaf 7`\n"
+	exit
+elif [[ $answer == '' ]]; then
+	echo -e "`tput setaf 1`Invalid Answer! Quitting...`tput setaf 7`\n"
+	ssh_kill=`ps -ax | grep ssh | grep @pts | awk 'NR==1{ print $1 }'`
+	kill -9 $ssh_kill
+else
+	echo -e "`tput setaf 1`Invalid Answer! Quitting...`tput setaf 7`\n"
+	ssh_kill=`ps -ax | grep ssh | grep @pts | awk 'NR==1{ print $1 }'`
+	kill -9 $ssh_kill
+fi

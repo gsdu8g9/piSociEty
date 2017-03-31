@@ -1,0 +1,128 @@
+17:59:05.644341 c0:ee:fb:3b:35:93 (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 6: 01 00
+17:59:05.692372 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:05.804395 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+17:59:05.804517 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+17:59:05.814240 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:59:05.814328 IP6 :: > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:59:05.827641 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+17:59:05.827818 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+17:59:05.828606 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+17:59:05.836330 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+17:59:05.836446 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+17:59:05.844201 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+17:59:05.964979 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+17:59:05.965102 ARP, Reply 10.0.0.1 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:05.965208 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+17:59:05.966884 IP 10.0.0.222.46145 > 10.0.0.1.domain: 34714+ AAAA? connectivitycheck.gstatic.com. (47)
+17:59:05.967137 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+17:59:05.969911 IP 10.0.0.222.36889 > 10.0.0.1.domain: 34714+ AAAA? connectivitycheck.gstatic.com. (47)
+17:59:05.970150 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+17:59:05.972282 IP 10.0.0.222.58417 > 10.0.0.1.domain: 47242+ A? connectivitycheck.gstatic.com. (47)
+17:59:05.972482 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+17:59:05.974830 IP 10.0.0.222.41250 > 10.0.0.1.domain: 47242+ A? connectivitycheck.gstatic.com. (47)
+17:59:05.975015 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+17:59:05.977252 IP 10.0.0.222.43697 > 10.0.0.1.domain: 37495+ AAAA? connectivitycheck.gstatic.com. (47)
+17:59:05.977414 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+17:59:05.979460 IP 10.0.0.222.41459 > 10.0.0.1.domain: 37495+ AAAA? connectivitycheck.gstatic.com. (47)
+17:59:05.979664 IP 10.0.0.1 > 10.0.0.222: ICMP 10.0.0.1 udp port domain unreachable, length 83
+17:59:05.981696 IP 10.0.0.222.61007 > 10.0.0.1.domain: 54512+ A? connectivitycheck.gstatic.com. (47)
+17:59:06.848589 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+17:59:06.848687 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+17:59:08.073943 IP 10.0.0.222.47079 > 10.0.0.1.domain: 47563+ AAAA? 127.0.0.1. (27)
+17:59:08.099202 IP 10.0.0.222.56380 > 10.0.0.1.domain: 33728+ A? clients3.google.com. (37)
+17:59:08.147789 IP 10.0.0.1.domain > 10.0.0.222.47079: 47563 NXDomain 0/1/0 (102)
+17:59:08.164830 IP 10.0.0.1.domain > 10.0.0.222.56380: 33728 2/0/0 CNAME clients.l.google.com., A 216.58.220.14 (77)
+17:59:08.337972 IP 10.0.0.222.55541 > bom05s05-in-f14.1e100.net.http: Flags [S], seq 2590288102, win 65535, options [mss 1460,sackOK,TS val 2564059 ecr 0,nop,wscale 8], length 0
+17:59:08.338212 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [S.], seq 4110019306, ack 2590288103, win 28960, options [mss 1460,sackOK,TS val 506951 ecr 2564059,nop,wscale 7], length 0
+17:59:08.340412 IP 10.0.0.222.55541 > bom05s05-in-f14.1e100.net.http: Flags [.], ack 1, win 343, options [nop,nop,TS val 2564059 ecr 506951], length 0
+17:59:08.342069 IP 10.0.0.222.55541 > bom05s05-in-f14.1e100.net.http: Flags [P.], seq 1:177, ack 1, win 343, options [nop,nop,TS val 2564059 ecr 506951], length 176
+17:59:08.342228 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [.], ack 177, win 235, options [nop,nop,TS val 506952 ecr 2564059], length 0
+17:59:08.572191 IP 10.0.0.222.56566 > 10.0.0.1.domain: 41957+ AAAA? 127.0.0.0. (27)
+17:59:08.597775 IP 10.0.0.1.domain > 10.0.0.222.56566: 41957 NXDomain 0/1/0 (102)
+17:59:08.732060 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:08.743178 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [P.], seq 1:153, ack 177, win 235, options [nop,nop,TS val 506992 ecr 2564059], length 152
+17:59:08.745499 IP 10.0.0.222.55541 > bom05s05-in-f14.1e100.net.http: Flags [.], ack 153, win 347, options [nop,nop,TS val 2564100 ecr 506992], length 0
+17:59:08.754124 IP 10.0.0.222.49327 > 10.0.0.1.domain: 41608+ A? e13.whatsapp.net. (34)
+17:59:08.772413 IP 10.0.0.1.domain > 10.0.0.222.49327: 41608 8/0/0 A 169.55.67.252, A 108.168.174.8, A 173.192.222.165, A 174.37.199.221, A 169.55.67.254, A 169.54.55.222, A 158.85.58.29, A 158.85.58.119 (162)
+17:59:08.800027 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [S], seq 2386463421, win 65535, options [mss 1460,sackOK,TS val 2564105 ecr 0,nop,wscale 8], length 0
+17:59:09.034410 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [S.], seq 3238145214, ack 2386463422, win 65535, options [mss 1360,nop,wscale 9,sackOK,TS val 3819442043 ecr 2564105], length 0
+17:59:09.037610 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [.], ack 1, win 343, options [nop,nop,TS val 2564129 ecr 3819442043], length 0
+17:59:09.053671 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [P.], seq 1:5, ack 1, win 343, options [nop,nop,TS val 2564130 ecr 3819442043], length 4
+17:59:09.272029 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [.], ack 1, win 513, options [nop,nop,TS val 3819442280 ecr 2564129], length 0
+17:59:09.317434 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [.], ack 5, win 513, options [nop,nop,TS val 3819442326 ecr 2564130], length 0
+17:59:09.320225 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [P.], seq 5:241, ack 1, win 343, options [nop,nop,TS val 2564157 ecr 3819442326], length 236
+17:59:09.557847 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [P.], seq 1:58, ack 241, win 513, options [nop,nop,TS val 3819442566 ecr 2564157], length 57
+17:59:09.558021 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [P.], seq 58:101, ack 241, win 513, options [nop,nop,TS val 3819442566 ecr 2564157], length 43
+17:59:09.559855 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [.], ack 58, win 343, options [nop,nop,TS val 2564181 ecr 3819442566], length 0
+17:59:09.560701 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [.], ack 101, win 343, options [nop,nop,TS val 2564181 ecr 3819442566], length 0
+17:59:09.569697 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [P.], seq 241:244, ack 101, win 343, options [nop,nop,TS val 2564182 ecr 3819442566], length 3
+17:59:09.576817 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [P.], seq 101:135, ack 241, win 513, options [nop,nop,TS val 3819442585 ecr 2564157], length 34
+17:59:09.613413 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [.], ack 135, win 343, options [nop,nop,TS val 2564187 ecr 3819442585], length 0
+17:59:09.833291 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [.], ack 244, win 513, options [nop,nop,TS val 3819442842 ecr 2564182], length 0
+17:59:09.835166 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [P.], seq 244:277, ack 135, win 343, options [nop,nop,TS val 2564209 ecr 3819442842], length 33
+17:59:10.072874 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [P.], seq 135:176, ack 277, win 513, options [nop,nop,TS val 3819443079 ecr 2564209], length 41
+17:59:10.553627 IP 10.0.0.222.39808 > 10.0.0.1.domain: 35486+ AAAA? 169.254.0.0. (29)
+17:59:10.636365 IP 10.0.0.1.domain > 10.0.0.222.39808: 35486 NXDomain 0/1/0 (104)
+17:59:10.747602 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [P.], seq 135:176, ack 277, win 513, options [nop,nop,TS val 3819443756 ecr 2564209], length 41
+17:59:10.749762 IP 10.0.0.222.32807 > fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client: Flags [.], ack 176, win 343, options [nop,nop,TS val 2564300 ecr 3819443756,nop,nop,sack 1 {135:176}], length 0
+17:59:10.995919 IP 10.0.0.222.61007 > 10.0.0.1.domain: 54512+ A? connectivitycheck.gstatic.com. (47)
+17:59:11.002408 IP 10.0.0.1.domain > 10.0.0.222.61007: 54512 1/0/0 A 173.194.72.101 (63)
+17:59:11.009709 IP 10.0.0.222.44078 > tf-in-f101.1e100.net.http: Flags [S], seq 1352780016, win 65535, options [mss 1460,sackOK,TS val 2564326 ecr 0,nop,wscale 8], length 0
+17:59:11.009921 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [S.], seq 3091767281, ack 1352780017, win 28960, options [mss 1460,sackOK,TS val 507218 ecr 2564326,nop,wscale 7], length 0
+17:59:11.011292 IP 10.0.0.222.44078 > tf-in-f101.1e100.net.http: Flags [.], ack 1, win 343, options [nop,nop,TS val 2564326 ecr 507218], length 0
+17:59:11.012387 IP 10.0.0.222.44078 > tf-in-f101.1e100.net.http: Flags [P.], seq 1:187, ack 1, win 343, options [nop,nop,TS val 2564326 ecr 507218], length 186
+17:59:11.012539 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [.], ack 187, win 235, options [nop,nop,TS val 507219 ecr 2564326], length 0
+17:59:11.258675 IP 10.0.0.222.48460 > 10.0.0.1.domain: 55254+ AAAA? 172.16.0.0. (28)
+17:59:11.407411 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [P.], seq 1:163, ack 187, win 235, options [nop,nop,TS val 507258 ecr 2564326], length 162
+17:59:11.409135 IP 10.0.0.222.44078 > tf-in-f101.1e100.net.http: Flags [.], ack 163, win 347, options [nop,nop,TS val 2564366 ecr 507258], length 0
+17:59:11.422909 IP 10.0.0.1.domain > 10.0.0.222.48460: 55254 NXDomain 0/1/0 (103)
+17:59:11.484775 IP 10.0.0.222.64680 > 10.0.0.1.domain: 51628+ AAAA? 10.0.0.0. (26)
+17:59:11.552024 IP 10.0.0.1.domain > 10.0.0.222.64680: 51628 NXDomain 0/1/0 (101)
+17:59:11.745869 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:12.239887 IP 10.0.0.222.61136 > 10.0.0.1.domain: 46863+ AAAA? 192.168.0.0. (29)
+17:59:12.313514 IP 10.0.0.1.domain > 10.0.0.222.61136: 46863 NXDomain 0/1/0 (104)
+17:59:14.755470 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:15.175728 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+17:59:15.175826 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+17:59:15.368315 IP6 fe80::c2ee:fbff:fe3b:3593 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:59:15.368407 IP6 fe80::c2ee:fbff:fe3b:3593 > ff02::16: HBH ICMP6, multicast listener report v2, 1 group record(s), length 28
+17:59:17.766167 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:18.744101 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 507992 ecr 2564100], length 0
+17:59:18.951925 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 508013 ecr 2564100], length 0
+17:59:19.161929 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 508034 ecr 2564100], length 0
+17:59:19.581923 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 508076 ecr 2564100], length 0
+17:59:20.421943 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 508160 ecr 2564100], length 0
+17:59:20.777845 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:21.407997 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508258 ecr 2564366], length 0
+17:59:21.611913 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508279 ecr 2564366], length 0
+17:59:21.821965 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508300 ecr 2564366], length 0
+17:59:22.101925 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 508328 ecr 2564100], length 0
+17:59:22.241904 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508342 ecr 2564366], length 0
+17:59:23.081934 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508426 ecr 2564366], length 0
+17:59:23.787912 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:24.761944 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508594 ecr 2564366], length 0
+17:59:25.471934 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 508665 ecr 2564100], length 0
+17:59:26.798126 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:28.131936 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 508931 ecr 2564366], length 0
+17:59:29.813669 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:32.201947 IP bom05s05-in-f14.1e100.net.http > 10.0.0.222.55541: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 509338 ecr 2564100], length 0
+17:59:32.828480 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:33.251178 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [P.], seq 176:233, ack 277, win 513, options [nop,nop,TS val 3819466259 ecr 2564300], length 57
+17:59:33.251335 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [F.], seq 233, ack 277, win 513, options [nop,nop,TS val 3819466260 ecr 2564300], length 0
+17:59:33.873448 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [FP.], seq 176:233, ack 277, win 513, options [nop,nop,TS val 3819466882 ecr 2564300], length 57
+17:59:34.861952 IP tf-in-f101.1e100.net.http > 10.0.0.222.44078: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 509604 ecr 2564366], length 0
+17:59:34.920525 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [FP.], seq 176:233, ack 277, win 513, options [nop,nop,TS val 3819467928 ecr 2564300], length 57
+17:59:35.843472 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:36.812503 IP fc.43.37a9.ip4.static.sl-reverse.com.xmpp-client > 10.0.0.222.32807: Flags [FP.], seq 176:233, ack 277, win 513, options [nop,nop,TS val 3819469820 ecr 2564300], length 57
+17:59:37.211857 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:38.211855 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:38.855364 ARP, Reply 192.168.0.100 is-at 98:de:d0:09:37:b4 (oui Unknown), length 28
+17:59:39.211860 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:40.395651 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:41.391857 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:42.391864 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:42.436193 ARP, Reply 192.168.0.100 is-at Broadcast, length 28
+17:59:42.441932 ARP, Reply 192.168.0.100 is-at Broadcast, length 28
+17:59:45.661926 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:46.661864 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+17:59:47.661862 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28

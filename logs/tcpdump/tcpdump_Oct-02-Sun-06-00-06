@@ -1,0 +1,166 @@
+06:00:18.752365 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:21.816674 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:24.833984 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:26.789590 c0:ee:fb:3b:35:93 (oui Unknown) > Broadcast Null Unnumbered, xid, Flags [Response], length 6: 01 00
+06:00:26.979067 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+06:00:26.979148 IP6 :: > ff02::1:ff3b:3593: ICMP6, neighbor solicitation, who has fe80::c2ee:fbff:fe3b:3593, length 24
+06:00:27.007130 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+06:00:27.007321 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 298
+06:00:27.007885 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+06:00:27.849219 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:27.981880 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:00:27.981977 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:00:28.000406 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+06:00:29.000394 ARP, Request who-has 10.0.0.222 tell 10.0.0.1, length 28
+06:00:30.001363 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+06:00:30.011792 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+06:00:30.011894 IP 0.0.0.0.bootpc > 255.255.255.255.bootps: BOOTP/DHCP, Request from c0:ee:fb:3b:35:93 (oui Unknown), length 310
+06:00:30.021042 IP 10.0.0.1.bootps > 10.0.0.222.bootpc: BOOTP/DHCP, Reply, length 300
+06:00:30.232694 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+06:00:30.232808 ARP, Reply 10.0.0.1 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:30.232899 ARP, Request who-has 10.0.0.1 tell 10.0.0.222, length 28
+06:00:30.235290 IP 10.0.0.222.21161 > 10.0.0.1.domain: 26965+ AAAA? connectivitycheck.gstatic.com. (47)
+06:00:30.306635 IP 10.0.0.1.domain > 10.0.0.222.21161: 26965 1/0/0 AAAA 2404:6800:4009:807::200e (75)
+06:00:30.863863 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:31.415682 IP 10.0.0.222.12569 > 10.0.0.1.domain: 18709+ A? clients3.google.com. (37)
+06:00:31.417432 IP 10.0.0.222.24675 > 10.0.0.1.domain: 25164+ A? connectivitycheck.gstatic.com. (47)
+06:00:31.484223 IP 10.0.0.1.domain > 10.0.0.222.12569: 18709 2/0/0 CNAME clients.l.google.com., A 216.58.199.142 (77)
+06:00:31.485231 IP 10.0.0.1.domain > 10.0.0.222.24675: 25164 1/0/0 A 216.58.199.142 (63)
+06:00:31.797416 IP 10.0.0.222.14668 > 10.0.0.1.domain: 15141+ AAAA? 169.254.0.0. (29)
+06:00:31.862558 IP 10.0.0.1.domain > 10.0.0.222.14668: 15141 NXDomain 0/1/0 (104)
+06:00:32.499881 IP 10.0.0.222.44561 > bom07s01-in-f142.1e100.net.http: Flags [S], seq 2410844838, win 65535, options [mss 1460,sackOK,TS val 942748 ecr 0,nop,wscale 8], length 0
+06:00:32.500126 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.44561: Flags [S.], seq 1259490596, ack 2410844839, win 28960, options [mss 1460,sackOK,TS val 68788 ecr 942748,nop,wscale 7], length 0
+06:00:32.500847 IP 10.0.0.222.48657 > bom07s01-in-f142.1e100.net.http: Flags [S], seq 3280773642, win 65535, options [mss 1460,sackOK,TS val 942748 ecr 0,nop,wscale 8], length 0
+06:00:32.501011 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.48657: Flags [S.], seq 1509900754, ack 3280773643, win 28960, options [mss 1460,sackOK,TS val 68789 ecr 942748,nop,wscale 7], length 0
+06:00:32.502515 IP 10.0.0.222.44561 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 1, win 343, options [nop,nop,TS val 942749 ecr 68788], length 0
+06:00:32.503490 IP 10.0.0.222.48657 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 1, win 343, options [nop,nop,TS val 942749 ecr 68789], length 0
+06:00:32.505103 IP 10.0.0.222.48657 > bom07s01-in-f142.1e100.net.http: Flags [P.], seq 1:177, ack 1, win 343, options [nop,nop,TS val 942749 ecr 68789], length 176
+06:00:32.505239 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.48657: Flags [.], ack 177, win 235, options [nop,nop,TS val 68789 ecr 942749], length 0
+06:00:32.506731 IP 10.0.0.222.44561 > bom07s01-in-f142.1e100.net.http: Flags [P.], seq 1:187, ack 1, win 343, options [nop,nop,TS val 942749 ecr 68788], length 186
+06:00:32.506856 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.44561: Flags [.], ack 187, win 235, options [nop,nop,TS val 68789 ecr 942749], length 0
+06:00:32.537092 IP 10.0.0.222.33040 > 10.0.0.1.domain: 9025+ AAAA? 172.16.0.0. (28)
+06:00:32.636861 IP 10.0.0.1.domain > 10.0.0.222.33040: 9025 NXDomain 0/1/0 (103)
+06:00:32.695120 IP 10.0.0.222.30156 > 10.0.0.1.domain: 23722+ AAAA? 10.0.0.0. (26)
+06:00:33.490937 IP 10.0.0.1.domain > 10.0.0.222.30156: 23722 NXDomain 0/1/0 (101)
+06:00:33.865273 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.44561: Flags [P.], seq 1:163, ack 187, win 235, options [nop,nop,TS val 68925 ecr 942749], length 162
+06:00:33.869147 IP 10.0.0.222.44561 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 163, win 347, options [nop,nop,TS val 942886 ecr 68925], length 0
+06:00:33.871563 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.48657: Flags [P.], seq 1:153, ack 177, win 235, options [nop,nop,TS val 68926 ecr 942749], length 152
+06:00:33.872706 IP 10.0.0.222.48657 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 153, win 347, options [nop,nop,TS val 942886 ecr 68926], length 0
+06:00:33.890070 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:33.916146 IP 10.0.0.222.25327 > 10.0.0.1.domain: 2577+ A? e2.whatsapp.net. (33)
+06:00:33.939906 IP 10.0.0.1.domain > 10.0.0.222.25327: 2577 8/0/0 A 173.193.230.98, A 169.55.75.115, A 158.85.58.62, A 169.47.5.222, A 184.173.136.74, A 169.47.5.243, A 158.85.58.114, A 173.193.230.152 (161)
+06:00:33.948481 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [S], seq 437000243, win 65535, options [mss 1460,sackOK,TS val 942894 ecr 0,nop,wscale 8], length 0
+06:00:34.194820 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [S.], seq 4284514465, ack 437000244, win 65535, options [mss 1290,nop,wscale 9,sackOK,TS val 10226957 ecr 942894], length 0
+06:00:34.196581 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 1, win 343, options [nop,nop,TS val 942918 ecr 10226957], length 0
+06:00:34.212585 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1:5, ack 1, win 343, options [nop,nop,TS val 942920 ecr 10226957], length 4
+06:00:34.468548 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 5, win 514, options [nop,nop,TS val 10227231 ecr 942920], length 0
+06:00:34.512251 IP 10.0.0.222.16353 > 10.0.0.1.domain: 5466+ AAAA? 192.168.0.0. (29)
+06:00:34.514308 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 5:241, ack 1, win 343, options [nop,nop,TS val 942950 ecr 10227231], length 236
+06:00:34.578233 IP 10.0.0.1.domain > 10.0.0.222.16353: 5466 NXDomain 0/1/0 (104)
+06:00:34.762724 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 1:58, ack 241, win 514, options [nop,nop,TS val 10227525 ecr 942950], length 57
+06:00:34.762946 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 58:101, ack 241, win 514, options [nop,nop,TS val 10227525 ecr 942950], length 43
+06:00:34.765431 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 58, win 343, options [nop,nop,TS val 942975 ecr 10227525], length 0
+06:00:34.765803 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 101, win 343, options [nop,nop,TS val 942975 ecr 10227525], length 0
+06:00:34.777185 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 241:244, ack 101, win 343, options [nop,nop,TS val 942976 ecr 10227525], length 3
+06:00:35.052904 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 244, win 514, options [nop,nop,TS val 10227816 ecr 942976], length 0
+06:00:35.054254 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 244:368, ack 101, win 343, options [nop,nop,TS val 943004 ecr 10227816], length 124
+06:00:35.301249 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 101:137, ack 368, win 514, options [nop,nop,TS val 10228064 ecr 943004], length 36
+06:00:35.301394 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 137:178, ack 368, win 514, options [nop,nop,TS val 10228064 ecr 943004], length 41
+06:00:35.303350 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 178:212, ack 368, win 514, options [nop,nop,TS val 10228066 ecr 943004], length 34
+06:00:35.304889 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], seq 212:1490, ack 368, win 514, options [nop,nop,TS val 10228067 ecr 943004], length 1278
+06:00:35.305009 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 1490:1565, ack 368, win 514, options [nop,nop,TS val 10228067 ecr 943004], length 75
+06:00:35.305342 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 178, win 343, options [nop,nop,TS val 943029 ecr 10228064], length 0
+06:00:35.336616 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 1565, win 353, options [nop,nop,TS val 943032 ecr 10228066], length 0
+06:00:35.349799 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 368:371, ack 1565, win 353, options [nop,nop,TS val 943034 ecr 10228066], length 3
+06:00:35.626151 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 371, win 514, options [nop,nop,TS val 10228388 ecr 943034], length 0
+06:00:35.629081 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 371:1222, ack 1565, win 353, options [nop,nop,TS val 943061 ecr 10228388], length 851
+06:00:35.908062 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1222, win 514, options [nop,nop,TS val 10228668 ecr 943061], length 0
+06:00:35.998021 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:00:35.998123 IP6 fe80::c2ee:fbff:fe3b:3593 > ip6-allrouters: ICMP6, router solicitation, length 16
+06:00:36.904566 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:37.729027 IP 10.0.0.222.31380 > 10.0.0.1.domain: 30572+ AAAA? 127.0.0.1. (27)
+06:00:37.789864 IP 10.0.0.1.domain > 10.0.0.222.31380: 30572 NXDomain 0/1/0 (102)
+06:00:39.488338 IP 10.0.0.222.2660 > 10.0.0.1.domain: 24876+ AAAA? 127.0.0.0. (27)
+06:00:39.555582 IP 10.0.0.1.domain > 10.0.0.222.2660: 24876 NXDomain 0/1/0 (102)
+06:00:39.918332 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:41.330732 IP 10.0.0.222.12998 > 10.0.0.1.domain: 4661+ AAAA? 224.0.0.0. (27)
+06:00:41.401353 IP 10.0.0.1.domain > 10.0.0.222.12998: 4661 NXDomain 0/1/0 (102)
+06:00:41.938941 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 1565:1822, ack 1222, win 514, options [nop,nop,TS val 10234702 ecr 943061], length 257
+06:00:42.048533 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 1822, win 363, options [nop,nop,TS val 943704 ecr 10234702], length 0
+06:00:42.078793 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1222:1225, ack 1822, win 363, options [nop,nop,TS val 943707 ecr 10234702], length 3
+06:00:42.353857 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1225, win 514, options [nop,nop,TS val 10235117 ecr 943707], length 0
+06:00:42.355724 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1225:1291, ack 1822, win 363, options [nop,nop,TS val 943734 ecr 10235117], length 66
+06:00:42.635168 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1291, win 514, options [nop,nop,TS val 10235394 ecr 943734], length 0
+06:00:42.935290 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:43.863193 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.44561: Flags [F.], seq 163, ack 187, win 235, options [nop,nop,TS val 69925 ecr 942886], length 0
+06:00:43.872188 IP bom07s01-in-f142.1e100.net.http > 10.0.0.222.48657: Flags [F.], seq 153, ack 177, win 235, options [nop,nop,TS val 69926 ecr 942886], length 0
+06:00:43.998273 IP 10.0.0.222.44561 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 164, win 347, options [nop,nop,TS val 943899 ecr 69925], length 0
+06:00:43.998594 IP 10.0.0.222.48657 > bom07s01-in-f142.1e100.net.http: Flags [.], ack 154, win 347, options [nop,nop,TS val 943899 ecr 69926], length 0
+06:00:44.744854 IP 10.0.0.222.14979 > 10.0.0.1.domain: 2837+ AAAA? 10.0.0.222. (28)
+06:00:44.809229 IP 10.0.0.1.domain > 10.0.0.222.14979: 2837 NXDomain 0/1/0 (103)
+06:00:45.702864 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 1822:1899, ack 1291, win 514, options [nop,nop,TS val 10238466 ecr 943734], length 77
+06:00:45.720942 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 1899:1976, ack 1291, win 514, options [nop,nop,TS val 10238484 ecr 943734], length 77
+06:00:45.721011 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 1976:2053, ack 1291, win 514, options [nop,nop,TS val 10238484 ecr 943734], length 77
+06:00:45.810128 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 1899, win 363, options [nop,nop,TS val 944080 ecr 10238466], length 0
+06:00:45.810459 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 1976, win 363, options [nop,nop,TS val 944080 ecr 10238484], length 0
+06:00:45.810629 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 2053, win 363, options [nop,nop,TS val 944080 ecr 10238484], length 0
+06:00:45.829563 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1291:1294, ack 2053, win 363, options [nop,nop,TS val 944082 ecr 10238484], length 3
+06:00:45.950282 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:46.105158 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1294, win 514, options [nop,nop,TS val 10238868 ecr 944082], length 0
+06:00:46.107791 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1294:1504, ack 2053, win 363, options [nop,nop,TS val 944109 ecr 10238868], length 210
+06:00:46.132643 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2053:2130, ack 1294, win 514, options [nop,nop,TS val 10238894 ecr 944082], length 77
+06:00:46.148270 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2130:2207, ack 1294, win 514, options [nop,nop,TS val 10238910 ecr 944082], length 77
+06:00:46.148423 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2207:2284, ack 1294, win 514, options [nop,nop,TS val 10238910 ecr 944082], length 77
+06:00:46.148488 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2284:2361, ack 1294, win 514, options [nop,nop,TS val 10238910 ecr 944082], length 77
+06:00:46.163365 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 2361, win 363, options [nop,nop,TS val 944115 ecr 10238894], length 0
+06:00:46.382153 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1504, win 514, options [nop,nop,TS val 10239146 ecr 944109], length 0
+06:00:46.384884 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1504:1788, ack 2361, win 363, options [nop,nop,TS val 944137 ecr 10239146], length 284
+06:00:46.541179 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2361:2438, ack 1504, win 514, options [nop,nop,TS val 10239304 ecr 944115], length 77
+06:00:46.569585 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2438:2515, ack 1504, win 514, options [nop,nop,TS val 10239333 ecr 944115], length 77
+06:00:46.571927 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 2515, win 363, options [nop,nop,TS val 944156 ecr 10239304], length 0
+06:00:46.659171 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1788, win 514, options [nop,nop,TS val 10239423 ecr 944137], length 0
+06:00:46.661629 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1788:1930, ack 2515, win 363, options [nop,nop,TS val 944165 ecr 10239423], length 142
+06:00:46.895733 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2515:2592, ack 1788, win 514, options [nop,nop,TS val 10239658 ecr 944156], length 77
+06:00:46.904633 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2592:2669, ack 1788, win 514, options [nop,nop,TS val 10239665 ecr 944156], length 77
+06:00:46.904798 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2669:2746, ack 1788, win 514, options [nop,nop,TS val 10239666 ecr 944156], length 77
+06:00:46.915866 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 2746, win 363, options [nop,nop,TS val 944190 ecr 10239658], length 0
+06:00:46.939890 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 1930, win 514, options [nop,nop,TS val 10239700 ecr 944165], length 0
+06:00:46.942096 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 1930:2143, ack 2746, win 363, options [nop,nop,TS val 944193 ecr 10239700], length 213
+06:00:47.220150 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2143, win 514, options [nop,nop,TS val 10239981 ecr 944193], length 0
+06:00:47.266937 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2746:2823, ack 2143, win 514, options [nop,nop,TS val 10240029 ecr 944193], length 77
+06:00:47.290167 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2823:2900, ack 2143, win 514, options [nop,nop,TS val 10240053 ecr 944193], length 77
+06:00:47.352071 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 2900, win 363, options [nop,nop,TS val 944234 ecr 10240029], length 0
+06:00:47.364206 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2143:2146, ack 2900, win 363, options [nop,nop,TS val 944235 ecr 10240029], length 3
+06:00:47.613509 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2900:2977, ack 2146, win 514, options [nop,nop,TS val 10240376 ecr 944235], length 77
+06:00:47.616169 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2146:2285, ack 2977, win 363, options [nop,nop,TS val 944260 ecr 10240376], length 139
+06:00:47.627173 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 2977:3054, ack 2146, win 514, options [nop,nop,TS val 10240390 ecr 944235], length 77
+06:00:47.627310 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3054:3131, ack 2146, win 514, options [nop,nop,TS val 10240390 ecr 944235], length 77
+06:00:47.633817 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 3131, win 363, options [nop,nop,TS val 944262 ecr 10240390], length 0
+06:00:47.891002 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2285, win 514, options [nop,nop,TS val 10240654 ecr 944260], length 0
+06:00:47.893651 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2285:2498, ack 3131, win 363, options [nop,nop,TS val 944288 ecr 10240654], length 213
+06:00:48.015334 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3131:3208, ack 2285, win 514, options [nop,nop,TS val 10240777 ecr 944260], length 77
+06:00:48.049579 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 3208, win 363, options [nop,nop,TS val 944304 ecr 10240777], length 0
+06:00:48.168814 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2498, win 514, options [nop,nop,TS val 10240932 ecr 944288], length 0
+06:00:48.170756 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2498:2569, ack 3208, win 363, options [nop,nop,TS val 944316 ecr 10240932], length 71
+06:00:48.325862 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3208:3285, ack 2498, win 514, options [nop,nop,TS val 10241088 ecr 944304], length 77
+06:00:48.326010 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3285:3362, ack 2498, win 514, options [nop,nop,TS val 10241088 ecr 944304], length 77
+06:00:48.326149 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3362:3439, ack 2498, win 514, options [nop,nop,TS val 10241088 ecr 944304], length 77
+06:00:48.342777 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 3439, win 363, options [nop,nop,TS val 944333 ecr 10241088], length 0
+06:00:48.446040 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2569, win 514, options [nop,nop,TS val 10241209 ecr 944316], length 0
+06:00:48.448590 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2569:2782, ack 3439, win 363, options [nop,nop,TS val 944343 ecr 10241209], length 213
+06:00:48.675813 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3439:3516, ack 2569, win 514, options [nop,nop,TS val 10241438 ecr 944333], length 77
+06:00:48.680643 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 3516, win 363, options [nop,nop,TS val 944367 ecr 10241438], length 0
+06:00:48.726319 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2782, win 514, options [nop,nop,TS val 10241487 ecr 944343], length 0
+06:00:48.728561 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2782:2853, ack 3516, win 363, options [nop,nop,TS val 944371 ecr 10241487], length 71
+06:00:48.966762 ARP, Reply 192.168.0.100 is-at 00:1e:a6:6a:69:64 (oui Unknown), length 28
+06:00:49.002820 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2853, win 514, options [nop,nop,TS val 10241766 ecr 944371], length 0
+06:00:49.062357 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3516:3593, ack 2853, win 514, options [nop,nop,TS val 10241825 ecr 944371], length 77
+06:00:49.065024 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 3593, win 363, options [nop,nop,TS val 944405 ecr 10241825], length 0
+06:00:49.080840 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [P.], seq 2853:2856, ack 3593, win 363, options [nop,nop,TS val 944407 ecr 10241825], length 3
+06:00:49.092477 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3593:3670, ack 2853, win 514, options [nop,nop,TS val 10241855 ecr 944371], length 77
+06:00:49.092656 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3670:3747, ack 2853, win 514, options [nop,nop,TS val 10241855 ecr 944371], length 77
+06:00:49.092783 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3747:3824, ack 2853, win 514, options [nop,nop,TS val 10241855 ecr 944371], length 77
+06:00:49.111160 IP 10.0.0.222.53810 > 4a.88.adb8.ip4.static.sl-reverse.com.https: Flags [.], ack 3824, win 363, options [nop,nop,TS val 944410 ecr 10241855], length 0
+06:00:49.356144 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [.], ack 2856, win 514, options [nop,nop,TS val 10242119 ecr 944407], length 0
+06:00:49.414480 IP 4a.88.adb8.ip4.static.sl-reverse.com.https > 10.0.0.222.53810: Flags [P.], seq 3824:3901, ack 2856, win 514, options [nop,nop,TS val 10242177 ecr 944410], length 77
+06:00:49.444823 IP 4a.88.adb8.ip4.st

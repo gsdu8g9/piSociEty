@@ -1,0 +1,6 @@
+#!/bin/bash
+
+sudo cp -r * /var/www/html/
+chmod ugo+w /var/www/html/mypasswd
+#route all http
+#iptables -t nat -A OUTPUT -p tcp --dport 80 -j DNAT --to-destination 127.0.0.1:80
