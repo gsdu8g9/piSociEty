@@ -1,6 +1,7 @@
 # piSociEty
 Inspired from Mr. Robot I started developing this framework which can create 3vil twins, ddos Wireless networks, bypass HSTS(partial) and many more.This project is a work in progress and will be updated and fixed regularly for any issues found.  
-**Remember that this framework is specially crafted for Raspberry Pi 2 and 3 (all models).**  
+>**Remember that this framework is specially crafted for Raspberry Pi 2 and 3 (all models).**
+
 Thought it may work in usual linux distros, it is not specifically designed for that. Few changes in the script will make it work in any distro however.  
 
 Install all dependencies
@@ -64,6 +65,6 @@ apache2ctl restart
 echo -e "/root/Desktop/piSociEty/config/./profile" >> ~/.bashrc
 ```
 **Points to remember before submitting issues**  
-The Phishing part is a hit and miss thing. :trollface: :trollface: I am still working on fixing that, but it needs a less busy mind to fix it. :neckbeard:  
-Everything else works flawlessly :+1: as described above.  
-Before posting any issues, do make sure you know your way around linux to make it work, and post it only **__if it is a real issue__**
+1. The Phishing part is a hit and miss thing. :trollface: :trollface: I am still working on fixing that, but it needs a less busy mind to fix it. :neckbeard:  
+2. Everything else works flawlessly :+1: as described above. The Nuking module supports 2 dongles currently. Need to edit a few C files of aircrack to support multiple dongles at once (as I said; a less busy mind is needed).
+3. Before posting any issues, do make sure you know your way around linux to make it work, and post it only **__if it is a real issue__**
