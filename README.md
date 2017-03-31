@@ -1,7 +1,8 @@
 # piSociEty
-Inspired from Mr. Robot I started developing this framework which can create 3vil twins, ddos Wireless networks, bypass HSTS(partial) and many more.This project is a work in progress and will be updated and fixed regularly for any issues found.  
->**Remember that this framework is specially crafted for Raspberry Pi 2 and 3 (all models).**
-
+```diff
++ Inspired from Mr. Robot I started developing this framework which can create 3vil twins, ddos Wireless networks, bypass HSTS(partial) and many more.This project is a work in progress and will be updated and fixed regularly for any issues found.  
+- Remember that this framework is specially crafted for Raspberry Pi 2 and 3 (all models).
+```
 Thought it may work in usual linux distros, it is not specifically designed for that. Few changes in the script will make it work in any distro however.  
 
 Install all dependencies
